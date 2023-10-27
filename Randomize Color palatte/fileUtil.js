@@ -1,4 +1,5 @@
 const { writeFile, readFile } = require("node:fs/promises");
+const { createReadStream, createWriteStream } = require("node:fs");
 const { join } = require("node:path");
 const {
   WRITE_ERROR,
@@ -6,9 +7,10 @@ const {
   READ_ERROR,
 } = require("./constants/Error-Constant");
 
+
+
 const writeData = async (data) => {
-  
- await writeFile("./randomized_color_palette.json", data).then((err) => {
+  await writeFile("./randomized_color_palette.json", data).then((err) => {
     if (err) {
       console.log(WRITE_ERROR);
     } else {
@@ -28,13 +30,26 @@ const readData = async () => {
   });
 };
 
+const writeDataStream = () => {
+  const readableStream = createReadStream("./color_palatte.json", {
+    encoding: "utf8",
+    highWaterMark: 12,
+  });
+  const writeableStream = createWriteStream("./color_palatte_stream.json");
+  readableStream.on("data", (chunk) => {
+    writeableStream.write(chunk);
+  });
+};
+
 const readJSON = async () => {
   const filePath = "./color_palatte.json";
   const content = await readFile(filePath, "utf-8");
   return JSON.parse(content);
 };
+
 module.exports = {
   writeData,
   readData,
   readJSON,
+  writeDataStream,
 };
