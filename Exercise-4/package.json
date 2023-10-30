@@ -1,0 +1,23 @@
+{
+  "name": "buddy-nick-name",
+  "version": "1.0.0",
+  "description": "Express js exercise called buddy's nick name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "['nickname'",
+    "'express'",
+    "'middleware']"
+  ],
+  "author": "Mathiarasi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1"
+  }
+}
