@@ -21,13 +21,14 @@ const writeData = async (data) => {
 
 const readData = async () => {
   const filePath = join("./randomized_color_palette.json");
-  readFile(filePath, "utf-8").then((data, err) => {
+ const data= await readFile(filePath, "utf-8").then((data, err) => {
     if (err) {
       console.log(READ_ERROR);
     } else {
       return JSON.parse(data);
     }
-  });
+ });
+  return data;
 };
 
 const writeDataStream = () => {

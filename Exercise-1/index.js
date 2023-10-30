@@ -17,7 +17,8 @@ const main = async () => {
   console.log("Writing data into  custom file");
   writeData(JSON.stringify(random5Colors));
   console.log("Reading data from custom file");
-  readData();
+  const data = await readData();
+  console.log(data)
   console.log("reading using stream");
   writeDataStream();
 };
