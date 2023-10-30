@@ -1,5 +1,5 @@
 const http = require("node:http");
-const { readJSON } = require("../Randomize Color palatte/fileUtil");
+const { readJSON } = require("../Exercise-1/fileUtil");
 const requestListener = async (req, res) => {
   console.log("Request is Incoming");
   const responseData = await readJSON();
