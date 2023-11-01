@@ -1,6 +1,9 @@
 const LOGGER = require("../logger");
 const buddyServices = require("../services/buddyServices");
-const { BUDDY_VALIDATION } = require("../utils/common-utils");
+const {
+  BUDDY_VALIDATION,
+  CHECK_ID_EXISTENCE,
+} = require("../utils/common-utils");
 
 /**
  * @author Mathiarasi
@@ -51,29 +54,36 @@ const getBuddyWithId = async (req, res) => {
 const createNewBuddy = async (req, res) => {
   LOGGER.info(`INFO IP:${req.ip}, URL:${req.url}`);
   const newBuddy = {
-    id: req.body.realName + "_" + req.body.dob.split("/")[0],
+    id:
+      req.body.realName +
+      "_" +
+      req.body.dob.split("/")[0] +
+      "_" +
+      req.body.hobbies[0],
     realName: req.body.realName,
     nickName: req.body.nickName,
     dob: req.body.dob,
     hobbies: req.body.hobbies,
   };
-
+  const isIDExists = await CHECK_ID_EXISTENCE(newBuddy.id);
   const isValidated = BUDDY_VALIDATION(newBuddy);
-    if (isValidated.status) {
-        const response = await buddyServices.createNewBuddy(newBuddy);
-        if (response.status) {
-            res.status(200).send(response.data);
-        } else {
-            LOGGER.error(
-                `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${response.data
-                }`
-            );
-            res.status(500).send(response.data);
-        }
+  if (isValidated.status && isIDExists) {
+    const response = await buddyServices.createNewBuddy(newBuddy);
+    if (response.status) {
+      res.status(200).send(response.data);
+    } else {
+      LOGGER.error(
+        `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${
+          response.data
+        }`
+      );
+      res.status(500).send(response.data);
     }
-    else {
-        res.status(400).send(isValidated.message);
-    }
+  } else {
+    if (!isIDExists) {
+      res.status(400).send("ID ALREADY EXISTS");
+    } else res.status(400).send(isValidated.message);
+  }
 };
 /**
  * @author Mathiarasi
@@ -85,25 +95,24 @@ const updateBuddy = async (req, res) => {
   LOGGER.info(`IP:${req.ip}, URL:${req.url}`);
   const updateBuddy = req.body;
   const isValidated = BUDDY_VALIDATION(updateBuddy);
-    if (isValidated.status) {
-        const response = await buddyServices.updateBuddy(
-            req.params.id,
-            updateBuddy
-        );
-        if (response.status) {
-            res.status(200).send(response.data);
-        } else {
-            LOGGER.error(
-                `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${response.data
-                }`
-            );
-            res.status(500).send(response.data);
-        }
-    
+  if (isValidated.status) {
+    const response = await buddyServices.updateBuddy(
+      req.params.id,
+      updateBuddy
+    );
+    if (response.status) {
+      res.status(200).send(response.data);
+    } else {
+      LOGGER.error(
+        `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${
+          response.data
+        }`
+      );
+      res.status(500).send(response.data);
     }
-    else {
-        res.status(400).send(isValidated.message);
-    }
+  } else {
+    res.status(400).send(isValidated.message);
+  }
 };
 /**
  * @author Mathiarasi

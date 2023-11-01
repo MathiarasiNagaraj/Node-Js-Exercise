@@ -105,7 +105,6 @@ const deleteBuddy = async (id) => {
       return { status: false, data: `Buddy ID ${id} not found` };
     }
     const filteredBuddies = existingBuddies.filter((buddy) => buddy.id !== id);
-    console.log(filteredBuddies, "data");
     writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(filteredBuddies));
     return { status: true, data: `${id} deleted successfully` };
   } catch (e) {

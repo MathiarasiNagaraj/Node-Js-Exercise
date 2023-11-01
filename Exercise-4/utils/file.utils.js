@@ -13,7 +13,7 @@ const LOGGER = require("../logger");
 const readBuddiesFile = async (path) => {
   return readFile(path, "utf-8").then((data, err) => {
     if (err) {
-      console.log(FILE_READ_ERROR);
+      LOGGER.error(FILE_READ_ERROR);
     } else {
       return JSON.parse(data);
     }
