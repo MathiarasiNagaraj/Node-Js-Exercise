@@ -1,16 +1,18 @@
 const { writeFile, readFile } = require("node:fs/promises");
 const { createReadStream, createWriteStream } = require("node:fs");
-const { join } = require("node:path");
 const {
   WRITE_ERROR,
   WRITE_SUCCESS,
   READ_ERROR,
 } = require("./constants/Error-Constant");
 
-
-
-const writeData = async (data) => {
-  await writeFile("./randomized_color_palette.json", data).then((err) => {
+/**
+ * @author Mathiarasi
+ * @description function for writing data in file
+ * @param {*} data data need to be written on file
+ */
+const writeData = async (path, data) => {
+  await writeFile(path, data).then((err) => {
     if (err) {
       console.log(WRITE_ERROR);
     } else {
@@ -19,18 +21,26 @@ const writeData = async (data) => {
   });
 };
 
-const readData = async () => {
-  const filePath = join("./randomized_color_palette.json");
- const data= await readFile(filePath, "utf-8").then((data, err) => {
+/**
+ * @author Mathiarasi
+ * @description function for reading data in file
+ */
+const readData = async (path) => {
+  const data = await readFile(path, "utf-8").then((data, err) => {
     if (err) {
       console.log(READ_ERROR);
     } else {
       return JSON.parse(data);
     }
- });
+  });
   return data;
 };
 
+/**
+ * @author Mathiarasi
+ * @description function for writing data in file in streams
+ *
+ */
 const writeDataStream = () => {
   const readableStream = createReadStream("./color_palatte.json", {
     encoding: "utf8",
@@ -42,15 +52,8 @@ const writeDataStream = () => {
   });
 };
 
-const readJSON = async () => {
-  const filePath = "./color_palatte.json";
-  const content = await readFile(filePath, "utf-8");
-  return JSON.parse(content);
-};
-
 module.exports = {
   writeData,
   readData,
-  readJSON,
   writeDataStream,
 };
