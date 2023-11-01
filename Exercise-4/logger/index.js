@@ -21,7 +21,8 @@ const CUSTOM_LOGGER = (loggerlevel, logpath) =>
       json(),
       logformat
     ),
-    transports: [
+      transports: [
+        
       new transports.File({
         filename: logpath,
       }),

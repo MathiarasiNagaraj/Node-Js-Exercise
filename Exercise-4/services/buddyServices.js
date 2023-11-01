@@ -1,99 +1,136 @@
-const { v4: uuidv4 } = require("uuid");
 const { writeBuddiesFile, readBuddiesFile } = require("../utils/file.utils");
 const { DATA_FILE_PATH } = require("../constants/common-contants");
-const LOGGER = require("../logger");
 const { BUDDY_ERROR } = require("../constants/error-constants");
-const getAllBuddies = async (req, res) => {
-  LOGGER.info(`get indo=IP:${req.ip}, URL:${req.url}`);
+
+/**
+ * @author Mathiarasi
+ * @description GET ALL BUDDIES function for getting all buddies
+ * @returns all buddy list
+ */
+const getAllBuddies = async () => {
   try {
     const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
-    res.status(200).send({ existingBuddies });
+    return { status: true, data: existingBuddies };
   } catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.getAll}`);
-    res.status(500).send({  data:BUDDY_ERROR.getAll + e });
-  }
-
-};
-const getBuddyWithId = async (req, res) => {
-  LOGGER.info(`IP:${req.ip}, URL:${req.url}`);
-  try {
-    const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
-    const buddy = existingBuddies.find((buddy) => buddy.id === req.params.id || buddy.realName === req.params.id);
-    if (!buddy) {
-      LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${'BUDDY ID NOT FOUND'}`)
-      return res
-        .status(400)
-        .send({ data: `Buddy ID ${req.body.id} not found` });
-    }
-    res.json(buddy);
-  }
-  catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.get}`);
-    res.status(500).send({  data:BUDDY_ERROR.get + e });
-  }
-
-};
-
-const createNewBuddy = async (req, res) => {
-  LOGGER.info(`IP post :${req.ip} URL:${req.url}`)
-
-  const newBuddy = {
-    id: uuidv4(),
-    realName: req.body.realName,
-    nickName: req.body.nickName,
-    dob: req.body.dob,
-    hobbies: req.body.hobbies,
-  };
-  try {
-    const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
-    existingBuddies.push(newBuddy);
-    writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(existingBuddies));
-    res.status(201).send({data:`Data added ID:${newBuddy.id}`});
-  }
-  catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.add}`);
-    res.status(500).send({  data:BUDDY_ERROR.add + e });
+    return { status: false, data: BUDDY_ERROR.getAll + e };
   }
 };
-const updateBuddy = async (req, res) => {
-  LOGGER.info(`IP:${req.ip} URL:${req.url}`)
-  try {
 
-    const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
-
-    const buddy = existingBuddies.find((buddy) => buddy.id === req.params.id || buddy.realName === req.params.id);
-    console.log(buddy)
-    return JSON.stringify(existingBuddies);
-  }
-  catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.update}`);
-    res.status(500).send({  data:BUDDY_ERROR.update + e });
-  }
-};
-const deleteBuddy = async (req, res) => {
+/**
+ * @author Mathiarasi
+ * @description GET function for getting buddy with particular ID
+ * @param {*} id  buddy ID
+ * @returns status  and data
+ */
+const getBuddyWithId = async (id) => {
   try {
     const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
-    const buddy = existingBuddies.find((buddy) => buddy.id === req.body.id);
-    if (!buddy) {
-      return res
-        .status(400)
-        .json({ message: `Buddy ID ${req.body.id} not found` });
-    }
-    const filteredBuddies = existingBuddies.filter(
-      (buddy) => buddy.id !== req.body.id
+    const buddy = existingBuddies.find(
+      (buddy) => buddy.id === id || buddy.realName === id
     );
-    writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(filteredBuddies));
-    res.status(200).send(`${res.body.id} deleted successfully`);
-  }catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.delete}`);
-    res.status(500).send({  data:BUDDY_ERROR.delete + e });
+
+    if (!buddy) {
+      return { status: false, data: "BUDDY ID NOT FOUND" };
+    }
+    return { status: true, data: buddy };
+  } catch (e) {
+    return { status: false, data: BUDDY_ERROR.get + e };
   }
 };
 
+/**
+ * @author Mathiarasi
+ * @description POST function for creating new buddy
+ * @param {*} data buddy data
+ * @returns status  and data
+ */
+const createNewBuddy = async (data) => {
+  try {
+    const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
+    existingBuddies.push(data);
+    writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(existingBuddies));
+    return { status: true, data: `Data added ID:${data.id}` };
+  } catch (e) {
+    return { status: false, data: BUDDY_ERROR.add + e };
+  }
+};
+
+/**
+ * @author Mathiarasi
+ * @description UPDATE function for updating buddy
+ * @param {*} id  id of buddy that need to be updated
+ * @param {*} data  updated buddy data
+ * @returns status  and data
+ */
+const updateBuddy = async (id, data) => {
+  try {
+    const updatedbuddy = data;
+    const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
+
+    const buddy = existingBuddies.find((buddy) => buddy.id === id);
+
+    if (!buddy) {
+      return { status: false, data: "BUDDY ID NOT FOUND" };
+    }
+    const updatedBuddies = existingBuddies.map((buddy) => {
+      if (buddy.id == data.id) {
+        return {
+          ...buddy,
+          realName: updatedbuddy.realName,
+          nickName: updatedbuddy.nickName,
+          dob: updatedbuddy.dob,
+          hobbies: updatedbuddy.hobbies,
+        };
+      }
+      return buddy;
+    });
+    writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(updatedBuddies));
+    return { status: true, data: `Data  ID:${id} updated successfully` };
+  } catch (e) {
+    return { status: false, data: BUDDY_ERROR.update + e };
+  }
+};
+
+/**
+ * @author Mathiarasi
+ * @description DELETE function for deleting buddy id
+ * @param {*} id  id of buddy that need to be deleted
+ * @returns status  and data
+ */
+const deleteBuddy = async (id) => {
+  try {
+    const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
+    const buddy = existingBuddies.find((buddy) => buddy.id === id);
+    if (!buddy) {
+      return { status: false, data: `Buddy ID ${id} not found` };
+    }
+    const filteredBuddies = existingBuddies.filter((buddy) => buddy.id !== id);
+    console.log(filteredBuddies, "data");
+    writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(filteredBuddies));
+    return { status: true, data: `${id} deleted successfully` };
+  } catch (e) {
+    return { status: false, data: BUDDY_ERROR.delete + e };
+  }
+};
+
+/**
+ * @author Mathiarasi
+ * @description DELETE function for deleting all data
+ * @returns status  and data
+ */
+const deleteAllBuddy = async () => {
+  try {
+    writeBuddiesFile(DATA_FILE_PATH, JSON.stringify([]));
+    return { status: true, data: `ALL BUDDIES DELETED` };
+  } catch (e) {
+    return { status: false, data: BUDDY_ERROR.delete + e };
+  }
+};
 module.exports = {
   getAllBuddies,
   getBuddyWithId,
   createNewBuddy,
   updateBuddy,
   deleteBuddy,
+  deleteAllBuddy,
 };

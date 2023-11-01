@@ -19,6 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // route handler for buddies
 app.use('/', require('./routes/api/buddiesRoutes'));
+app.use('/:id', require('./routes/api/buddiesRoutes'));
 
 app.listen(PORT, () => {
    writeBuddiesFile(DATA_FILE_PATH, JSON.stringify([]))
