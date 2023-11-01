@@ -1,24 +1,26 @@
 const express = require("express");
 const app = express();
-const path = require("path");
+const cors = require("cors");
 const dotenv = require("dotenv");
-const { writeBuddiesFile } = require("./utils/fileUtils");
-const { FILE_CREATE_ERROR } = require("./constants/error-constants");
+const corsOptions = require('./config/corsOptions');
+const { writeBuddiesFile } = require("./utils/file.utils");
+const { DATA_FILE_PATH } = require("./constants/common-contants");
 dotenv.config();
 const PORT = process.env.PORT;
+
+// Cross Origin Resource Sharing
+app.use(cors(corsOptions));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-const filePath = path.join("/modal", "cdw_ace23_buddies.json");
+
+// Create a new file with an empty array on server startup
+
 
 // route handler for buddies
 app.use('/', require('./routes/api/buddiesRoutes'));
 
-//while receiving new request to 3000 file should overwrite
 app.listen(PORT, () => {
-  writeBuddiesFile(filePath, JSON.stringify([]), (err) => {
-    if (err) {
-      console.log(FILE_CREATE_ERROR);
-    }
-  });
-  console.log(`server listning to ${PORT}`);
+   writeBuddiesFile(DATA_FILE_PATH, JSON.stringify([]))
+  console.log(`Server listening to ${PORT} and file created`);
 });

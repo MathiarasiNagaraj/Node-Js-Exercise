@@ -1,17 +1,20 @@
 const buddyServices=require('../services/buddyServices')
-const getAllBuddies = () => {
-    buddyServices.getAllBuddies()
+const getAllBuddies = (req, res) => {
+    buddyServices.getAllBuddies(req, res)
 }
-const getBuddyWithId = () => {
+const getBuddyWithId = (req, res) => {
+    buddyServices.getBuddyWithId(req, res);
     
 }
-const createNewBuddy = () => {
+const createNewBuddy = (req, res) => {
+    buddyServices.createNewBuddy(req,res);
+}
+const updateBuddy = (req, res) => {
+    buddyServices.updateBuddy(req, res);
     
 }
-const updateBuddy = () => {
-    
-}
-const deleteBuddy = () => {
+const deleteBuddy = (req, res) => {
+    buddyServices.deleteBuddy(req, res);
     
 }
 
