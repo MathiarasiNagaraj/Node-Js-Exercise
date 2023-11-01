@@ -3,7 +3,7 @@ const router = express.Router();
 const buddyController = require("../../controller/buddyController");
 
 /**
- * routes with respective controllers
+ * routes for handling common requests
  */
 router
   .route("/")
@@ -11,6 +11,9 @@ router
   .post(buddyController.createNewBuddy)
   .delete(buddyController.deleteAllBuddy);
 
+/**
+ * routes for handling request with particular ID
+ */
 router
   .route("/:id")
   .get(buddyController.getBuddyWithId)

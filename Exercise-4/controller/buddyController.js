@@ -1,5 +1,6 @@
 const LOGGER = require("../logger");
 const buddyServices = require("../services/buddyServices");
+const { BUDDY_VALIDATION } = require("../utils/common-utils");
 
 /**
  * @author Mathiarasi
@@ -8,9 +9,8 @@ const buddyServices = require("../services/buddyServices");
  * @param {*} res
  */
 const getAllBuddies = async (req, res) => {
-  LOGGER.info(`IP:${req.ip}, URL:${req.url}`);
+  LOGGER.info(`INFO IP:${req.ip}, URL:${req.url}`);
   const response = await buddyServices.getAllBuddies();
-
   if (response.status) {
     res.status(200).send(response.data);
   } else {
@@ -22,13 +22,15 @@ const getAllBuddies = async (req, res) => {
     res.status(500).send(response.data);
   }
 };
+
 /**
  * @description GET function for getting buddy with particular ID
  * @param {*} req
  * @param {*} res
  */
+
 const getBuddyWithId = async (req, res) => {
-  LOGGER.info(`IP:${req.ip}, URL:${req.url}`);
+  LOGGER.info(`INFO IP:${req.ip}, URL:${req.url}`);
   const response = await buddyServices.getBuddyWithId(req.params.id);
   if (response.status) {
     res.status(200).send(response.data);
@@ -47,7 +49,7 @@ const getBuddyWithId = async (req, res) => {
  * @param {*} res
  */
 const createNewBuddy = async (req, res) => {
-  LOGGER.info(`IP:${req.ip}, URL:${req.url}`);
+  LOGGER.info(`INFO IP:${req.ip}, URL:${req.url}`);
   const newBuddy = {
     id: req.body.realName + "_" + req.body.dob.split("/")[0],
     realName: req.body.realName,
@@ -55,17 +57,23 @@ const createNewBuddy = async (req, res) => {
     dob: req.body.dob,
     hobbies: req.body.hobbies,
   };
-  const response = await buddyServices.createNewBuddy(newBuddy);
-  if (response.status) {
-    res.status(200).send(response.data);
-  } else {
-    LOGGER.error(
-      `IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${
-        response.data
-      }`
-    );
-    res.status(500).send(response.data);
-  }
+
+  const isValidated = BUDDY_VALIDATION(newBuddy);
+    if (isValidated.status) {
+        const response = await buddyServices.createNewBuddy(newBuddy);
+        if (response.status) {
+            res.status(200).send(response.data);
+        } else {
+            LOGGER.error(
+                `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${response.data
+                }`
+            );
+            res.status(500).send(response.data);
+        }
+    }
+    else {
+        res.status(400).send(isValidated.message);
+    }
 };
 /**
  * @author Mathiarasi
@@ -75,17 +83,27 @@ const createNewBuddy = async (req, res) => {
  */
 const updateBuddy = async (req, res) => {
   LOGGER.info(`IP:${req.ip}, URL:${req.url}`);
-  const response = await buddyServices.updateBuddy(req.params.id,req.body);
-  if (response.status) {
-    res.status(200).send(response.data);
-  } else {
-    LOGGER.error(
-      `IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${
-        response.data
-      }`
-    );
-    res.status(500).send(response.data);
-  }
+  const updateBuddy = req.body;
+  const isValidated = BUDDY_VALIDATION(updateBuddy);
+    if (isValidated.status) {
+        const response = await buddyServices.updateBuddy(
+            req.params.id,
+            updateBuddy
+        );
+        if (response.status) {
+            res.status(200).send(response.data);
+        } else {
+            LOGGER.error(
+                `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${response.data
+                }`
+            );
+            res.status(500).send(response.data);
+        }
+    
+    }
+    else {
+        res.status(400).send(isValidated.message);
+    }
 };
 /**
  * @author Mathiarasi
@@ -99,7 +117,7 @@ const deleteBuddy = async (req, res) => {
     res.status(200).send(response.data);
   } else {
     LOGGER.error(
-      `IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${
+      `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${
         response.data
       }`
     );
@@ -118,7 +136,7 @@ const deleteAllBuddy = async (req, res) => {
     res.status(200).send(response.data);
   } else {
     LOGGER.error(
-      `IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${
+      `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${
         response.data
       }`
     );

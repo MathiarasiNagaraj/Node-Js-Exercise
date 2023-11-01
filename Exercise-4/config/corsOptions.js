@@ -2,6 +2,10 @@ const whitelist = [
     'http://localhost:3000'
 ];
 
+
+/**
+ * cors option allowing only whitelisted origins
+ */
 const corsOptions = {
     origin: (origin, callback) => {
         if (whitelist.indexOf(origin) !== -1 || !origin) {
