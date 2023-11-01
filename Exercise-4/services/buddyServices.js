@@ -4,23 +4,23 @@ const { DATA_FILE_PATH } = require("../constants/common-contants");
 const LOGGER = require("../logger");
 const { BUDDY_ERROR } = require("../constants/error-constants");
 const getAllBuddies = async (req, res) => {
-
-  LOGGER.info(`IP:${req.ip}, URL:${req.originalUrl}`);
+  LOGGER.info(`get indo=IP:${req.ip}, URL:${req.url}`);
   try {
     const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
     res.status(200).send({ existingBuddies });
   } catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.getAll}`);
+    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.getAll}`);
     res.status(500).send({  data:BUDDY_ERROR.getAll + e });
   }
 
 };
 const getBuddyWithId = async (req, res) => {
-  LOGGER.info(`IP:${req.ip}, URL:${req.originalUrl}`);
+  LOGGER.info(`IP:${req.ip}, URL:${req.url}`);
   try {
     const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
     const buddy = existingBuddies.find((buddy) => buddy.id === req.params.id || buddy.realName === req.params.id);
     if (!buddy) {
+      LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${'BUDDY ID NOT FOUND'}`)
       return res
         .status(400)
         .send({ data: `Buddy ID ${req.body.id} not found` });
@@ -28,14 +28,14 @@ const getBuddyWithId = async (req, res) => {
     res.json(buddy);
   }
   catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.get}`);
+    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.get}`);
     res.status(500).send({  data:BUDDY_ERROR.get + e });
   }
 
 };
 
 const createNewBuddy = async (req, res) => {
-  LOGGER.info(`IP:${req.ip} URL:${req.url}`)
+  LOGGER.info(`IP post :${req.ip} URL:${req.url}`)
 
   const newBuddy = {
     id: uuidv4(),
@@ -51,18 +51,22 @@ const createNewBuddy = async (req, res) => {
     res.status(201).send({data:`Data added ID:${newBuddy.id}`});
   }
   catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.add}`);
+    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.add}`);
     res.status(500).send({  data:BUDDY_ERROR.add + e });
   }
 };
 const updateBuddy = async (req, res) => {
   LOGGER.info(`IP:${req.ip} URL:${req.url}`)
   try {
+
     const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
+
+    const buddy = existingBuddies.find((buddy) => buddy.id === req.params.id || buddy.realName === req.params.id);
+    console.log(buddy)
     return JSON.stringify(existingBuddies);
   }
   catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.update}`);
+    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.update}`);
     res.status(500).send({  data:BUDDY_ERROR.update + e });
   }
 };
@@ -81,7 +85,7 @@ const deleteBuddy = async (req, res) => {
     writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(filteredBuddies));
     res.status(200).send(`${res.body.id} deleted successfully`);
   }catch (e) {
-    LOGGER.error(`IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.delete}`);
+    LOGGER.error(`IP:${req.ip}, URL:${req.url}, STATUS:${500}, MESSAGE:${BUDDY_ERROR.delete}`);
     res.status(500).send({  data:BUDDY_ERROR.delete + e });
   }
 };

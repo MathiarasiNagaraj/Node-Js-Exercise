@@ -7,28 +7,33 @@ const logformat = printf(({ level, message, timestamp, stack }) => {
 /**
  * Creates a winston logger
  *
- * @param {String} loggerLevel - level of log to be allowed in file
- * @param {*} loggerPath - path of file for the logs
+ * @param {string} loggerLevel - level of log to be allowed in file
+ * @param {*} logpath - path of file for the logs
  * @returns - a winston logger
  */
 const CUSTOM_LOGGER = (loggerlevel, logpath) =>
-createLogger({
-    transports: new transports.File({
-      level: loggerlevel,
-      filename:logpath,
-      format: format.combine(
-        format.timestamp({ format: "MMM-DD-YYYY HH:mm:ss" }),
-        format.align(),
-        format.printf((info) => `${info.level}:\t${[info.timestamp]}: ${info.message}`)
-      ),
-    }),
+  createLogger({
+    level: loggerlevel,
+    format: combine(
+      colorize(),
+      timestamp(),
+      errors({ stack: true }),
+      json(),
+      logformat
+    ),
+    transports: [
+      new transports.File({
+        filename: logpath,
+      }),
+    ],
   });
 
-const INFO_LOGGER = CUSTOM_LOGGER(process.env.INFO_LEVEL, "./logs/info.log");
-const ERROR_LOGGER = CUSTOM_LOGGER(process.env.ERROR_LEVEL, "./logs/error.log");
+const INFO_LOGGER = CUSTOM_LOGGER(0, "./logs/info.log");
+const ERROR_LOGGER = CUSTOM_LOGGER(0, "./logs/error.log");
 
 const LOGGER = {
     info: (params) => {
+        
     return INFO_LOGGER.info(params);
   },
   error: (params) => {
