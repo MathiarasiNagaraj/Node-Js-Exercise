@@ -8,8 +8,8 @@ const {
 /**
  * @author Mathiarasi
  * @description GET ALL BUDDIES function for getting all buddies
- * @param {*} req
- * @param {*} res
+ * @param {http.IncomingMessage} req The HTTP request object.
+ * @param {http.ServerResponse} res The HTTP response object.
  */
 const getAllBuddies = async (req, res) => {
   LOGGER.info(`INFO IP:${req.ip}, URL:${req.url}`);
@@ -28,8 +28,8 @@ const getAllBuddies = async (req, res) => {
 
 /**
  * @description GET function for getting buddy with particular ID
- * @param {*} req
- * @param {*} res
+ * @param {http.IncomingMessage} req The HTTP request object.
+ * @param {http.ServerResponse} res The HTTP response object.
  */
 
 const getBuddyWithId = async (req, res) => {
@@ -48,8 +48,8 @@ const getBuddyWithId = async (req, res) => {
 };
 /**
  * @description  POST function for creating new buddy
- * @param {*} req
- * @param {*} res
+ * @param {http.IncomingMessage} req The HTTP request object.
+ * @param {http.ServerResponse} res The HTTP response object.
  */
 const createNewBuddy = async (req, res) => {
   LOGGER.info(`INFO IP:${req.ip}, URL:${req.url}`);
@@ -88,8 +88,8 @@ const createNewBuddy = async (req, res) => {
 /**
  * @author Mathiarasi
  * @description  UPDATE function for updating buddy
- * @param {*} req
- * @param {*} res
+ * @param {http.IncomingMessage} req The HTTP request object.
+ * @param {http.ServerResponse} res The HTTP response object.
  */
 const updateBuddy = async (req, res) => {
   LOGGER.info(`IP:${req.ip}, URL:${req.url}`);
@@ -117,8 +117,8 @@ const updateBuddy = async (req, res) => {
 /**
  * @author Mathiarasi
  * @description DELETE function for deleting buddy id
- * @param {*} req
- * @param {*} res
+ * @param {http.IncomingMessage} req The HTTP request object.
+ * @param {http.ServerResponse} res The HTTP response object.
  */
 const deleteBuddy = async (req, res) => {
   const response = await buddyServices.deleteBuddy(req.params.id);
@@ -136,8 +136,8 @@ const deleteBuddy = async (req, res) => {
 /**
  * @author Mathiarasi
  * @description  DELETE ALL function for deleting all buddy
- * @param {*} req
- * @param {*} res
+ * @param {http.IncomingMessage} req The HTTP request object.
+ * @param {http.ServerResponse} res The HTTP response object.
  */
 const deleteAllBuddy = async (req, res) => {
   const response = await buddyServices.deleteAllBuddy();
