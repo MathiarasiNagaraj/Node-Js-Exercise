@@ -27,8 +27,8 @@ const CUSTOM_LOGGER = (loggerlevel, logpath) =>
     ],
   });
 
-const INFO_LOGGER = CUSTOM_LOGGER(0, "./logs/info.log");
-const ERROR_LOGGER = CUSTOM_LOGGER(0, "./logs/error.log");
+const INFO_LOGGER = CUSTOM_LOGGER("info", "./logs/info.log");
+const ERROR_LOGGER = CUSTOM_LOGGER("error", "./logs/error.log");
 
 /**
  * LOGGER Object with info and error function
