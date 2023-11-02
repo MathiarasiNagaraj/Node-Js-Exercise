@@ -81,7 +81,7 @@ const createNewBuddy = async (req, res) => {
     }
   } else {
     if (!isIDExists) {
-      res.status(400).send("ID ALREADY EXISTS");
+      res.status(409).send("ID ALREADY EXISTS");
     } else res.status(400).send(isValidated.message);
   }
 };
@@ -124,13 +124,23 @@ const deleteBuddy = async (req, res) => {
   const response = await buddyServices.deleteBuddy(req.params.id);
   if (response.status) {
     res.status(200).send(response.data);
-  } else {
-    LOGGER.error(
-      `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${
-        response.data
-      }`
-    );
-    res.status(500).send(response.data);
+  }
+  else {
+    if (!response.data === `Buddy ID ${req.params.id} not found`) {
+      LOGGER.error(
+        `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${500}, MESSAGE:${response.data
+        }`
+      );
+      res.status(500).send(response.data);
+    } else {
+     
+        LOGGER.error(
+          `INFO IP:${req.ip}, URL:${req.originalUrl}, STATUS:${404}, MESSAGE:${response.data
+          }`
+        );
+        res.status(404).send(response.data);
+      }
+    
   }
 };
 /**
