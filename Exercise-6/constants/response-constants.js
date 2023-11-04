@@ -13,12 +13,22 @@ const USER_ERROR_RESPONSE = {
     
 }
 const TASK_SUCCESS_RESPONSE = {
-    addTask:(taskID)=>`${taskID} ADDED SUCCESSFULLY`
+    addTask: (taskID) => `${taskID} ADDED SUCCESSFULLY`,
+    notaskFound: (user) => `NO TASK FOUND FOR ${user}`,
+    updateTask: (taskId) => `${taskId} UPDATED SUCCESSFULLY`,
+    deleteTask: (taskId) => `${taskId} DELETED SUCCESSFULLY`,
+    deleteAllTasks:(user)=>`DELETED ALL TASKS OF ${user} SUCCESSFULLY`
+   
+
 }
 const TASK_ERROR_RESPONSE = {
-    addTask: (taskID) => `ERROR IN ADDING USER ${taskID}`,
-    updateTask: () => ``,
-    deleteTask: () => ``,
+    addTask:`ERROR IN ADDING USER`,
+    readTask: `ERROR IN READING USER`,
+    updateTask: `ERROR IN UPDATING USER`,
+    deleteTask: `ERROR IN DELETING USER`,
+    filterTask: `ERROR IN FILTERING USER`,
+    invalidTaskID:`INVALID TASK ID`
+   
     
 }
 module.exports = {

@@ -8,7 +8,7 @@ const { TASK_ROUTE, USER_ROUTE } = require('./constants/route-constants');
 const port = process.env.PORT
 const USER_ROUTE_HANDLER = require('./routes/userRoutes');
 const TASK_ROUTE_HANDLER = require('./routes/taskRoutes');
-const { verifyJWTToken } = require('./utils/auth.utils');
+
 
 
 
@@ -23,7 +23,7 @@ app.use(cors(corsOptions));
 //ROUTES HANDLING MIDDLEWARE
 app.use(USER_ROUTE.base, USER_ROUTE_HANDLER)
 
-app.use(verifyJWTToken);
+
 app.use(TASK_ROUTE.base,TASK_ROUTE_HANDLER)
 
 
