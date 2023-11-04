@@ -4,8 +4,12 @@ const USER_SUCCESS_RESPONSE = {
 }
 
 const USER_ERROR_RESPONSE = {
-    addUser: (user) => `ERROR IN ADDING USER ${user}`,
+    registerUser: (user) => `ERROR IN REGISTERING USER ${user}`,
+    loginUser:(user)=>`ERROR IN LOGGING IN USER ${user}`,
     alreadyExists: (user) => `${user} ALREADY EXISTS`,
+    usernotFound: (user) => `${user} NOT FOUND`,
+    invalidPassword:`INVALID PASSWORD`,
+    invalidInput:`USER NAME AND PASSWORD REQUIRED`
     
 }
 const TASK_SUCCESS_RESPONSE = {

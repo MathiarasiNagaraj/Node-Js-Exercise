@@ -1,4 +1,4 @@
-const LOGGER = require("../logger/index");
+const LOGGER = require('../logger/index');
 const taskServices = require("../services/tasksService");
 
 /**
@@ -10,10 +10,12 @@ const taskServices = require("../services/tasksService");
  */
 
 const addTaskController = async (req, res) => {
+  console.log('hai')
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const response = await taskServices.addTaskService();
-  if (response.status) {
-  } else {
+   if (response.status) {
+      res.status(response.statusCode).send({ message: response.data });
+    } else {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
@@ -31,8 +33,9 @@ const addTaskController = async (req, res) => {
 const readTasksController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const response = await taskServices.readTasksService();
-  if (response.status) {
-  } else {
+   if (response.status) {
+      res.status(response.statusCode).send({ message: response.data });
+    } else {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
@@ -51,8 +54,9 @@ const readTasksController = async (req, res) => {
 const readTaskByIdController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const response = await taskServices.readTaskByIdService();
-  if (response.status) {
-  } else {
+   if (response.status) {
+      res.status(response.statusCode).send({ message: response.data });
+    } else {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
@@ -70,8 +74,9 @@ const readTaskByIdController = async (req, res) => {
 const updateTaskByIdController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const response = await taskServices.updateTaskByIdService();
-  if (response.status) {
-  } else {
+   if (response.status) {
+      res.status(response.statusCode).send({ message: response.data });
+    } else {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
@@ -90,8 +95,9 @@ const updateTaskByIdController = async (req, res) => {
 const deleteTaskByIdController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const response = await taskServices.deleteTaskByIdService();
-  if (response.status) {
-  } else {
+   if (response.status) {
+      res.status(response.statusCode).send({ message: response.data });
+    } else {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
@@ -111,6 +117,7 @@ const deleteTasksController = async (req, res) => {
     LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
     const response = await taskServices.deleteTasksService()
     if (response.status) {
+      res.status(response.statusCode).send({ message: response.data });
     } else {
       LOGGER.error(
         `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
@@ -130,8 +137,9 @@ const deleteTasksController = async (req, res) => {
 const filterTaskController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const response = await taskServices.filterTaskService();
-  if (response.status) {
-  } else {
+   if (response.status) {
+      res.status(response.statusCode).send({ message: response.data });
+    } else {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
@@ -149,8 +157,9 @@ const filterTaskController = async (req, res) => {
 const sortTaskController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const response = await taskServices.sortTaskService();
-  if (response.status) {
-  } else {
+   if (response.status) {
+      res.status(response.statusCode).send({ message: response.data });
+    } else {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
@@ -169,8 +178,9 @@ const sortTaskController = async (req, res) => {
 const paginationTaskController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const response = await taskServices.paginationTaskService();
-  if (response.status) {
-  } else {
+   if (response.status) {
+      res.status(response.statusCode).send({ message: response.data });
+    } else {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );

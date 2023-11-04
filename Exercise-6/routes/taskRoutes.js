@@ -19,4 +19,4 @@ router.route(TASK_ROUTE.sort)
     .get(taskController.sortTaskController)
 router.route(TASK_ROUTE.pagination)
     .get(taskController.paginationTaskController)
-modules.exports = router;
+module.exports = router;

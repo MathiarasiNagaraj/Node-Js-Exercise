@@ -13,8 +13,12 @@ const LOGGER = require("../logger");
 const readFileData = async (path) => {
   return readFile(path, "utf-8").then((data, err) => {
     if (err) {
-      LOGGER.error(FILE_READ_ERROR);
+      LOGGER.error(`FILE ERROR${FILE_READ_ERROR}`);
     } else {
+      if (!data) {
+        // Handle the case when the file is empty
+        return [];
+      }
       return JSON.parse(data);
     }
   });
@@ -25,9 +29,10 @@ const readFileData = async (path) => {
  * @param {*} data  data need to be written in file
  */
 const writeFileData = async (path, data) => {
+  
   await writeFile(path, data).then((err) => {
     if (err) {
-      LOGGER.error(FILE_CREATE_ERROR, err);
+      LOGGER.error('FILE',FILE_CREATE_ERROR, err);
     }
   });
 };

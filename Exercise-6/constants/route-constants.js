@@ -1,5 +1,5 @@
 const TASK_ROUTE = {
-    base: "/task",
+    base: "/tasks",
     general: "/",
     specific:"/:id",
     filter: "/filter",
@@ -7,7 +7,7 @@ const TASK_ROUTE = {
     pagination:"/pagination"
 };
 const USER_ROUTE = {
-  base: "/user",
+  base: "/users",
   login: "/login",
   register: "/register",
   logout: "/logout",

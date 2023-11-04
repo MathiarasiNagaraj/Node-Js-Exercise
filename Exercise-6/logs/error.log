@@ -1,0 +1,52 @@
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 500 MESSAGE:(user) => `ERROR IN ADDING USER ${user}` 2023-11-04T09:12:10.892Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:(user) => `ERROR IN ADDING USER ${user}` 2023-11-04T09:13:49.927Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiError: ENOENT: no such file or directory, open 'models/users.json' 2023-11-04T09:18:17.898Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiENOENT: no such file or directory, open '/models/users.json' 2023-11-04T09:19:14.250Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiENOENT: no such file or directory, open '/models/users.json' 2023-11-04T09:19:37.524Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiENOENT: no such file or directory, open '/models/users.json' 2023-11-04T09:21:45.222Z  ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiENOENT: no such file or directory, open '/models/users.json' 2023-11-04T09:23:31.212Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiENOENT: no such file or directory, open '/Users/mathiarasi/Desktop/Node Exercises/Node-Js-Exercise/Exercise-6/constants/models/users.json' 2023-11-04T09:24:47.750Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiENOENT: no such file or directory, open '/Users/mathiarasi/Desktop/Node Exercises/Node-Js-Exercise/Exercise-6/constants/models/users.json' 2023-11-04T09:25:32.906Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiENOENT: no such file or directory, open '/models/users.json' 2023-11-04T09:26:00.545Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiENOENT: no such file or directory, open '/models/users.json' 2023-11-04T09:26:28.777Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiENOENT: no such file or directory, open '/models/users.json' 2023-11-04T09:26:29.855Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:27:02.534Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:27:42.013Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:30:17.529Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:30:34.292Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:30:55.450Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:31:20.123Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:32:11.221Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:33:58.672Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:34:36.315Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:35:56.354Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:36:57.408Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:37:23.965Z 
+ ERROR  IP: ::1 URL: /register STATUS: 500 MESSAGE:ERROR IN REGISTERING USER MathiarasiUnexpected end of JSON input 2023-11-04T09:37:35.602Z 
+ ERROR  IP: ::1 URL: /register STATUS: 409 MESSAGE:(user) => `${user} ALREADY EXISTS` 2023-11-04T09:40:13.489Z 
+ ERROR  IP: ::1 URL: /register STATUS: 409 MESSAGE:undefined ALREADY EXISTS 2023-11-04T09:41:06.072Z 
+ ERROR  IP: ::1 URL: /register STATUS: 409 MESSAGE:Mathiarasi ALREADY EXISTS 2023-11-04T09:41:20.771Z 
+ ERROR  IP: ::1 URL: /register STATUS: 409 MESSAGE:Madhu ALREADY EXISTS 2023-11-04T09:48:22.733Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T10:55:32.236Z 
+ ERROR  IP: ::1 URL: /login STATUS: 404 MESSAGE:Arjunoi NOT FOUND 2023-11-04T10:57:13.852Z 
+ ERROR  IP: ::1 URL: /login STATUS: 404 MESSAGE:Arjunoi NOT FOUND 2023-11-04T10:57:53.043Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T10:57:56.693Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T10:58:46.042Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T10:59:31.250Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:01:32.943Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:01:55.385Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:02:56.776Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:03:08.649Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:03:36.564Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:04:14.033Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:04:39.327Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:07:00.277Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:07:15.312Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:08:15.764Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:08:27.787Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:08:59.843Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:09:30.439Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:22:51.203Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:24:23.637Z 
+ ERROR  IP: ::1 URL: /login STATUS: 500 MESSAGE:ERROR IN LOGGING IN USER ArjunThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined 2023-11-04T11:24:51.533Z 
+ ERROR  IP: ::1 URL: /login STATUS: 401 MESSAGE:INVALID PASSWORD 2023-11-04T11:29:33.163Z 
+ ERROR  IP: ::1 URL: /login STATUS: 401 MESSAGE:INVALID PASSWORD 2023-11-04T11:30:54.131Z 

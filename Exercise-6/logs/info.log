@@ -1,123 +1,603 @@
- undefined 2023-11-03T06:48:54.978Z 
- A 2023-11-03T06:49:00.778Z 
- INFO  2023-11-03T06:49:05.609Z 
- INFO app started and succ 2023-11-03T06:49:12.108Z 
- INFO app s 2023-11-03T06:49:14.819Z 
- INFO app started successfully and listening to port  2023-11-03T06:49:28.026Z 
- INFO app started successfully and listening to port 3000 2023-11-03T06:49:31.367Z 
- INFO app started successfully and listening to port 3000 2023-11-03T06:49:33.834Z 
- INFO app started successfully and listening to port 3000 2023-11-03T06:49:57.302Z 
- INFO app started successfully and listening to port 3000 2023-11-03T06:50:42.104Z 
- INFO  started successfully and listening to port 3000 2023-11-03T06:51:05.594Z 
- INFO S started successfully and listening to port 3000 2023-11-03T06:51:06.634Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:51:08.901Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:56:22.210Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:56:41.953Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:56:47.049Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:56:52.769Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:56:55.167Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:56:58.666Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:00.553Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:03.779Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:07.792Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:14.512Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:16.143Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:18.612Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:21.876Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:24.535Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:29.819Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:32.279Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:38.303Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:41.576Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:44.206Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:45.581Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:48.227Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:57:52.748Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:05.849Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:07.520Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:16.143Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:22.167Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:23.816Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:33.350Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:36.120Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:38.682Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:40.721Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:44.378Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:46.326Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:49.370Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:58:56.968Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:02.224Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:06.270Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:08.370Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:10.251Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:12.319Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:18.062Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:24.820Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:28.539Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:30.556Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:32.560Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:34.725Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:38.393Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:40.192Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:41.974Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:49.248Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:52.542Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T06:59:53.601Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:03.833Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:06.738Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:08.432Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:15.958Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:17.876Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:23.327Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:25.581Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:26.725Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:32.434Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:34.616Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:40.553Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:43.237Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:48.783Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:00:51.143Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:00.678Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:03.668Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:05.551Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:13.519Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:15.578Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:18.502Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:27.330Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:30.664Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:33.091Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:34.141Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:35.779Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:42.282Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:45.517Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:47.024Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:01:56.355Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:03.142Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:05.579Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:11.315Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:16.431Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:19.529Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:21.016Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:27.603Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:31.072Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:37.569Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:39.076Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:41.274Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:43.876Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:50.977Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:52.281Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:02:57.823Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:03:03.523Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:03:13.640Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:05.680Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:13.132Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:18.025Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:22.486Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:25.859Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:29.002Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:30.911Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:32.612Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:33.764Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:37.186Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:42.738Z 
- INFO Server started successfully and listening to port 3000 2023-11-03T07:04:48.134Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:04:39.501Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:05:48.100Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:05:49.785Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:06:13.068Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:06:13.294Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:06:13.800Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:06:38.739Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:06:40.013Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:07:36.817Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:07:38.096Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:07:38.505Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:08:04.605Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:08:53.965Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:08:56.521Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:09:04.912Z 
+ INFO IP:::1, URL:/login 2023-11-04T08:11:56.491Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:13:01.155Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:13:06.273Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:29:07.442Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:29:14.303Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:50:33.125Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:50:34.697Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:50:37.144Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:50:41.967Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:50:45.064Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:50:48.433Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:04.266Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:08.683Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:10.878Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:13.185Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:15.591Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:18.911Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:24.734Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:36.183Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:37.498Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:47.599Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:51:50.722Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:52:34.478Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:52:35.723Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:53:33.887Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:53:51.138Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:53:52.475Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:54:18.053Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:54:24.455Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:54:26.549Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:54:36.035Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:55:53.928Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:55:58.603Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:56:02.209Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:57:17.967Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:58:01.553Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:58:05.624Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:58:06.941Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:58:11.485Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:58:13.853Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:58:15.603Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:58:42.516Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:58:57.825Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:59:18.435Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:59:24.058Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:59:25.963Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:59:30.665Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:59:35.130Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:59:36.073Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:59:39.516Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T08:59:44.239Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:00:33.723Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:01:05.114Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:01:07.240Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:01:23.383Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:01:25.043Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:01:26.801Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:01:28.300Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:02:03.421Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:02:14.910Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:02:21.137Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:03:38.892Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:03:43.761Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:03:45.188Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:04:02.849Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:04:10.236Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:04:40.788Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:05:00.083Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:05:35.924Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:05:46.337Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:05:47.480Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:05:48.980Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:05:51.287Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:05:53.198Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:06:03.476Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:06:06.231Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:06:07.549Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:06:12.429Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:06:13.545Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:06:29.440Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:06:30.701Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:06:33.703Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:06:40.913Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:07:10.122Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:07:20.593Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:07:23.111Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:07:25.452Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:07:26.669Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:07:48.061Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:07:54.354Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:07:57.467Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:08:02.657Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:08:03.798Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:08:08.032Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:08:12.204Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:08:19.589Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:08:21.299Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:09:33.871Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:09:42.619Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:09:52.017Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:09:56.183Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:03.640Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:05.967Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:10.278Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:11.954Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:20.495Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:26.799Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:32.377Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:36.569Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:47.498Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:55.023Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:10:56.424Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:11:01.876Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:11:05.685Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:11:08.686Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:11:16.516Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-04T09:12:10.891Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:13:49.926Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:15:13.156Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:15:15.782Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:15:32.989Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:15:42.941Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:15:45.248Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:15:49.483Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:16:10.184Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:16:20.119Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:16:22.068Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:16:23.474Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:16:27.940Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:16:35.771Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:16:40.578Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:16:46.648Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:16:49.350Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:17:00.626Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:17:33.409Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:17:35.555Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:18:17.897Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:18:38.406Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:18:40.051Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:19:06.294Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:19:07.463Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:19:12.591Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:19:14.249Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:19:37.523Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:05.331Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:07.482Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:10.204Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:11.537Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:14.714Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:14.909Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:15.100Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:40.530Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:42.087Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:21:42.275Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:21:45.222Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:22:10.573Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:23:10.770Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:23:14.287Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:23:20.573Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:23:22.148Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:23:22.459Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:23:22.907Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:23:31.211Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:24:42.298Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:24:45.543Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:24:47.750Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:25:27.741Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:25:28.579Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:25:28.820Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:25:32.905Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:25:51.208Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:26:00.545Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:26:28.776Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:26:29.854Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:26:55.143Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:26:56.858Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:27:02.533Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:27:22.673Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:27:26.313Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:27:33.907Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:27:36.166Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:27:37.498Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:27:39.200Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:27:42.013Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:28:13.511Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:28:14.864Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:29:40.979Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:29:44.721Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:29:48.421Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:29:57.150Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:01.126Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:02.149Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:05.582Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:06.793Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:30:17.528Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:30.971Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:31.576Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:33.436Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:30:34.291Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:44.937Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:50.636Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:52.573Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:30:54.659Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:30:55.449Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:31:07.142Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:31:09.698Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:31:17.999Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:31:20.122Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:31:52.925Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:32:11.220Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:32:26.182Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:33:58.671Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:34:10.054Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:34:11.446Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:34:32.138Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:34:33.345Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:34:36.312Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:35:17.223Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:35:17.429Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:35:17.850Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:35:35.155Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:35:39.534Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:35:44.647Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:35:56.352Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:36:14.199Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:36:17.092Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:36:20.428Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:36:31.081Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:36:32.279Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:36:35.931Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:36:42.588Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:36:57.406Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:37:14.348Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:37:21.136Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:37:23.963Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:37:34.720Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:37:35.600Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:37:46.048Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:38:57.402Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:39:03.071Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:39:51.604Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:39:53.011Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:39:54.694Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:39:59.604Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:40:03.445Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:40:07.111Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:40:09.868Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:40:13.488Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:40:56.029Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:40:57.781Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:40:59.620Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:41:01.669Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:41:02.817Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:41:06.071Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:41:19.421Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:41:20.769Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:41:27.328Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:44:59.833Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:45:09.623Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:47:27.541Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:47:53.139Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:48:14.703Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:48:22.732Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:48:31.738Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:49:21.383Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:49:41.091Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:49:56.684Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:49:59.933Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:50:01.886Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:50:06.620Z 
+ INFO IP:::1, URL:/register 2023-11-04T09:50:10.650Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:50:39.167Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:52:13.853Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:53:03.095Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:53:16.954Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:54:23.276Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:54:26.852Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:54:32.907Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:54:54.195Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:04.079Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:05.328Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:09.720Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:13.628Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:17.056Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:20.835Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:25.261Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:28.605Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:31.719Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:40.711Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:43.671Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:48.075Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:51.466Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:54.982Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:55:58.907Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:56:00.252Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:56:15.170Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:56:34.322Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:56:37.099Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:56:39.296Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:56:41.229Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:56:43.027Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:56:48.856Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:56:57.157Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:57:25.396Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:57:35.959Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:57:38.915Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:57:52.963Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:58:02.895Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:58:04.025Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:58:09.764Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:58:24.731Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:58:35.949Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:58:38.478Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:58:40.739Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:58:50.508Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:59:11.030Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:59:36.194Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T09:59:50.182Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:00:14.321Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:00:30.557Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:01:34.106Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:01:38.421Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:01:41.813Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:01:45.628Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:01:56.825Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:02:00.749Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:02:06.591Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:02:08.582Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:02:53.657Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:02:56.603Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:03:43.301Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:03:50.454Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:03:58.181Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:04:02.556Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:04:26.686Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:04:34.654Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:04:46.997Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:04:48.080Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:04:53.950Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:05:24.442Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:05:28.562Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:05:43.925Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:05:46.464Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:05:59.910Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:06:00.980Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:06:15.138Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:06:19.244Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:06:29.210Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:06:32.084Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:06:35.330Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:06:36.603Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:06:37.985Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:07:24.957Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:46:20.945Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:46:25.275Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:46:28.756Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:46:32.545Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:46:34.209Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:46:36.756Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:46:37.996Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:46:39.649Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:47:01.334Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:47:31.456Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:47:37.033Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:47:42.738Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:47:47.209Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:02.027Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:08.260Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:12.470Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:35.715Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:41.051Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:44.901Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:51.040Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:52.720Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:54.953Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:56.441Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:48:57.512Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:16.423Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:18.412Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:20.027Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:24.992Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:39.508Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:40.696Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:46.842Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:52.155Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:53.326Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:57.652Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:49:59.717Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:50:01.395Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:50:04.731Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:50:06.301Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:50:08.460Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:50:55.460Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:50:57.405Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:01.658Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:03.749Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:12.231Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:14.108Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:27.322Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:35.206Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:36.270Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:40.287Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:41.628Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:42.973Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:45.034Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:47.756Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:51:59.785Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:06.260Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:07.767Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:10.226Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:12.425Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:23.999Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:25.221Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:30.145Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:37.199Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:38.345Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:40.057Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:44.508Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:45.996Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:52:51.418Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:53:05.451Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:53:11.566Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:53:12.550Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:53:35.342Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:53:36.256Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:54:44.153Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:54:45.318Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:54:47.229Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:55:00.627Z 
+ INFO IP:::1, URL:/register 2023-11-04T10:55:07.103Z 
+ INFO IP:::1, URL:/register 2023-11-04T10:55:21.050Z 
+ INFO IP:::1, URL:/login 2023-11-04T10:55:32.147Z 
+ INFO IP:::1, URL:/login 2023-11-04T10:57:13.850Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:57:27.585Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:57:41.663Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:57:42.703Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:57:44.450Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:57:47.997Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:57:50.308Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:57:52.738Z 
+ INFO IP:::1, URL:/login 2023-11-04T10:57:53.043Z 
+ INFO IP:::1, URL:/login 2023-11-04T10:57:56.603Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:58:14.649Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:58:19.205Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:58:30.676Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:58:34.467Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:58:41.747Z 
+ INFO IP:::1, URL:/login 2023-11-04T10:58:45.970Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:58:54.745Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:58:55.992Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:59:08.892Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:59:11.383Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:59:13.044Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T10:59:14.508Z 
+ INFO IP:::1, URL:/login 2023-11-04T10:59:31.178Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:00:43.686Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:00:59.099Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:01:03.232Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:01:04.799Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:01:19.738Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:01:21.283Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:01:24.452Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:01:30.408Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:01:32.871Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:01:46.950Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:01:48.180Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:01:49.839Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:01:55.313Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:02:56.694Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:03:04.574Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:03:05.328Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:03:07.636Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:03:08.577Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:03:27.643Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:03:31.257Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:03:36.491Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:03:49.682Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:03:51.464Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:03:54.093Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:03:55.543Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:02.740Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:05.394Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:08.454Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:09.883Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:11.616Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:04:13.961Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:21.148Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:25.846Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:27.222Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:30.602Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:32.537Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:34.232Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:36.550Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:38.585Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:04:39.254Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:04:49.134Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:05:03.459Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:05:06.649Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:06:34.747Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:06:42.681Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:06:46.210Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:06:50.626Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:06:51.860Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:06:54.487Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:06:55.970Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:07:00.203Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:07:10.549Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:07:13.323Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:07:15.239Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:07:15.449Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:07:46.421Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:07:48.490Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:07:50.706Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:07:55.250Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:07:57.656Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:07:59.999Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:02.960Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:05.474Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:06.706Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:10.179Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:13.568Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:15.647Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:08:15.704Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:25.025Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:08:27.715Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:35.259Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:37.510Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:38.551Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:53.890Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:08:59.713Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:08:59.784Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:09:10.671Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:09:15.700Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:09:29.436Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:09:30.366Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:09:45.799Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:10:03.560Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:10:05.887Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:10:11.450Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:10:13.518Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:10:14.626Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:22:48.013Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:22:51.131Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:23:59.212Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:24:23.565Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:24:40.563Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:24:40.809Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:24:48.652Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:24:49.294Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:24:51.461Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:25:11.188Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:25:25.341Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:25:28.341Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:25:32.117Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:25:36.408Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:25:39.113Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:26:04.377Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:26:55.131Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:27:58.612Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:29:33.157Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:30:52.005Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:30:54.130Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:31:18.398Z 
+ INFO IP:::1, URL:/register 2023-11-04T11:31:33.039Z 
+ INFO IP:::1, URL:/login 2023-11-04T11:31:40.946Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:32:33.849Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:33:12.558Z 
+ INFO IP: ::1 URL: / 2023-11-04T11:33:15.787Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:33:19.698Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:33:20.050Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:33:54.765Z 
+ INFO IP: ::1 URL: / 2023-11-04T11:34:34.086Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:34:50.772Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:34:51.104Z 
+ INFO IP: ::1 URL: / 2023-11-04T11:35:04.531Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:35:25.957Z 
+ INFO IP: ::1 URL: / 2023-11-04T11:35:26.479Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:35:41.706Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:35:49.222Z 
+ INFO IP: ::1 URL: / 2023-11-04T11:36:01.059Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:36:25.156Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:36:28.028Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:36:29.966Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:36:32.551Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:36:32.978Z 
+ INFO IP: ::1 URL: / 2023-11-04T11:36:34.465Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-04T11:37:33.714Z 
+ INFO IP: ::1 URL: / 2023-11-04T11:37:40.202Z 
