@@ -36,19 +36,21 @@ const registerController = async (req, res) => {
 const loginController = async (req, res) => {
   LOGGER.info(`INFO IP:${req.ip}, URL:${req.url}`);
   const { userName, password } = req.body;
-  if (!userName || !password)
+  if (!userName || !password) {
     res.status(400).send({ message: USER_ERROR_RESPONSE.invalidInput });
-  const response = await userServices.loginService(req.body);
-  if (response.status) {
-    const accessToken=response.accessToken
-    res.cookie('jwt', response.refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });
-    res.json({ accessToken });
-    res.status(response.statusCode).send({ message: response.data });
-  } else {
-    LOGGER.error(
-      `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
-    );
-    res.status(response.statusCode).send({ message: response.data });
+  }
+  else {
+    const response = await userServices.loginService(req.body);
+    if (response.status) {
+      const accessToken = response.accessToken
+      res.cookie('jwt', response.refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });
+      res.status(response.statusCode).json({ accessToken, message: response.data });
+    } else {
+      LOGGER.error(
+        `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
+      );
+      res.status(response.statusCode).send({ message: response.data });
+    }
   }
 };
 

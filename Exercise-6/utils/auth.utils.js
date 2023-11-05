@@ -14,12 +14,16 @@ const getJWTRefreshToken = (user) => {
 const verifyJWTToken = (req, res) => {
   const authHeader = req.headers["authorization"];
     if (!authHeader) {
-        return res.send(401).send({'message':'Token Expired'})
+    res.status(401).json({'message':'Token Not found try login'})
       }
     else {
+      try {
         const token = authHeader.split(" ")[1];
         const data = jwt.verify(token, process.env.ACCESS_SECERET_TOKEN);
         return data.userName;
+      } catch (err) {
+        res.status(401).json({'message':'Token Expired Login Again'+err})
+      }
     }
 };
 module.exports = {

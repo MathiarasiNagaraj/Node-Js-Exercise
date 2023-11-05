@@ -22,14 +22,12 @@ const addTaskController = async (req, res) => {
     createdDate: new Date().toISOString(),
   };
   const response = await taskServices.addTaskService(userName, task);
-  if (response.status) {
-    res.status(response.statusCode).send({ message: response.data });
-  } else {
+  if (!response.status) {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
-    res.status(response.statusCode).send({ message: response.data });
   }
+  res.status(response.statusCode).json({ message: response.data });
 };
 /**
  * @author Mathiarasi
@@ -43,14 +41,12 @@ const readTasksController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const userName = verifyJWTToken(req, res);
   const response = await taskServices.readTasksService(userName);
-  if (response.status) {
-    res.status(response.statusCode).send({tasks: response.data });
-  } else {
+  if (!response.status) {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
-    res.status(response.statusCode).send({ message: response.data });
   }
+  res.status(response.statusCode).json({ message: response.data });
 };
 
 /**
@@ -62,17 +58,18 @@ const readTasksController = async (req, res) => {
  */
 
 const readTaskByIdController = async (req, res) => {
-  LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
+  LOGGER.info(`INFO ready by id  IP: ${req.ip} URL: ${req.url}`);
   const userName = verifyJWTToken(req, res);
-  const response = await taskServices.readTaskByIdService(userName,parseInt(req.params.id));
-  if (response.status) {
-    res.status(response.statusCode).send({ task: response.data });
-  } else {
+  const response = await taskServices.readTaskByIdService(
+    userName,
+    parseInt(req.params.id)
+  );
+  if (!response.status) {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
-    res.status(response.statusCode).send({ message: response.data });
   }
+  res.status(response.statusCode).json({ message: response.data });
 };
 /**
  * @author Mathiarasi
@@ -85,15 +82,17 @@ const readTaskByIdController = async (req, res) => {
 const updateTaskByIdController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const userName = verifyJWTToken(req, res);
-  const response = await taskServices.updateTaskByIdService(userName,parseInt(req.params.id),req.body);
-  if (response.status) {
-    res.status(response.statusCode).send({ message: response.data });
-  } else {
+  const response = await taskServices.updateTaskByIdService(
+    userName,
+    parseInt(req.params.id),
+    req.body
+  );
+  if (!response.status) {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
-    res.status(response.statusCode).send({ message: response.data });
   }
+  res.status(response.statusCode).json({ message: response.data });
 };
 
 /**
@@ -107,15 +106,16 @@ const updateTaskByIdController = async (req, res) => {
 const deleteTaskByIdController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const userName = verifyJWTToken(req, res);
-  const response = await taskServices.deleteTaskByIdService(userName,parseInt(req.params.id));
-  if (response.status) {
-    res.status(response.statusCode).send({ message: response.data });
-  } else {
+  const response = await taskServices.deleteTaskByIdService(
+    userName,
+    parseInt(req.params.id)
+  );
+  if (!response.status) {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
-    res.status(response.statusCode).send({ message: response.data });
   }
+  res.status(response.statusCode).json({ message: response.data });
 };
 
 /**
@@ -130,14 +130,12 @@ const deleteTasksController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const userName = verifyJWTToken(req, res);
   const response = await taskServices.deleteTasksService(userName);
-  if (response.status) {
-    res.status(response.statusCode).send({ message: response.data });
-  } else {
+  if (!response.status) {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
-    res.status(response.statusCode).send({ message: response.data });
   }
+  res.status(response.statusCode).json({ message: response.data });
 };
 
 /**
@@ -150,15 +148,19 @@ const deleteTasksController = async (req, res) => {
 
 const filterTaskController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
-  const response = await taskServices.filterTaskService();
-  if (response.status) {
-    res.status(response.statusCode).send({ message: response.data });
-  } else {
+  const userName = verifyJWTToken(req, res);
+
+ 
+  const response = await taskServices.filterTaskService(
+    userName,
+req.query
+  );
+  if (!response.status) {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
-    res.status(response.statusCode).send({ message: response.data });
   }
+  res.status(response.statusCode).json({ message: response.data });
 };
 /**
  * @author Mathiarasi
@@ -169,16 +171,16 @@ const filterTaskController = async (req, res) => {
  */
 
 const sortTaskController = async (req, res) => {
-  LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
-  const response = await taskServices.sortTaskService();
-  if (response.status) {
-    res.status(response.statusCode).send({ message: response.data });
-  } else {
+  LOGGER.info(`INFO SORT IP: ${req.ip} URL: ${req.url}`);
+  const userName = verifyJWTToken(req, res);
+  const { sortBy } = req.query;
+  const response = await taskServices.sortTaskService(userName, sortBy);
+  if (!response.status) {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
-    res.status(response.statusCode).send({ message: response.data });
   }
+  res.status(response.statusCode).json({ message: response.data });
 };
 
 /**
@@ -191,15 +193,16 @@ const sortTaskController = async (req, res) => {
 
 const paginationTaskController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
-  const response = await taskServices.paginationTaskService();
-  if (response.status) {
-    res.status(response.statusCode).send({ message: response.data });
-  } else {
+  
+  const userName = verifyJWTToken(req, res);
+  const {page,pageSize}=req.query
+  const response = await taskServices.paginationTaskService(userName,page,pageSize);
+  if (!response.status) {
     LOGGER.error(
       `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
     );
-    res.status(response.statusCode).send({ message: response.data });
   }
+  res.status(response.statusCode).json({ message: response.data });
 };
 
 module.exports = {

@@ -65,7 +65,7 @@ const loginService = async (existingUser) => {
       existingUser.password,
       user.password
     );
-    console.log(isMatching);
+
     if (isMatching) {
       const accessToken = getJWTAccessToken({
         userName: existingUser.userName,

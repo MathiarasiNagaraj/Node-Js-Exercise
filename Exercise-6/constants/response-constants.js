@@ -1,6 +1,6 @@
 const USER_SUCCESS_RESPONSE = {
     registerUser: (user) => `${user}  Registred SUCCESSFULLY`,
-    loginUser:(user)=>`${user}  Registred SUCCESSFULLY`
+    loginUser:(user)=>`${user} LOGGED IN  SUCCESSFULLY`
 }
 
 const USER_ERROR_RESPONSE = {

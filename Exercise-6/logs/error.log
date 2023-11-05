@@ -66,3 +66,39 @@
  ERROR  IP: ::1 URL: /2 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-04T18:22:46.690Z 
  ERROR  IP: ::1 URL: /2 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-04T18:24:00.333Z 
  ERROR  IP: ::1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERtask is not defined 2023-11-04T18:27:49.001Z 
+ ERROR  IP: ::1 URL: /register STATUS: 409 MESSAGE:kumar ALREADY EXISTS 2023-11-05T07:31:17.957Z 
+ ERROR  IP: ::1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T07:34:23.181Z 
+ ERROR  IP: ::1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T07:34:26.123Z 
+ ERROR  IP: ::1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T07:35:52.180Z 
+ ERROR  IP: ::1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T07:36:53.163Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-05T07:44:53.000Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-05T07:47:16.400Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-05T07:47:50.966Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-05T07:48:38.251Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-05T07:49:23.871Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-05T07:50:25.553Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-05T07:50:49.969Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-05T07:51:07.806Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-05T07:51:55.953Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-05T07:52:26.752Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-05T07:52:47.095Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=%27priority%27 STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-05T07:52:56.738Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=priority STATUS: 500 MESSAGE:ERROR IN READING USERAssignment to constant variable. 2023-11-05T08:14:32.969Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=priority STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T08:20:35.137Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=priority STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T08:21:10.076Z 
+ ERROR  IP: ::1 URL: /3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T08:28:48.907Z 
+ ERROR  IP: ::1 URL: /7 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T08:46:23.828Z 
+ ERROR  IP: ::1 URL: /filter?title=Task%208&dueDate=23/02/23&priority=low STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T10:30:35.385Z 
+ ERROR  IP: ::1 URL: /3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T10:51:41.299Z 
+ ERROR  IP: ::1 URL: /3 STATUS: 200 MESSAGE:[object Object] 2023-11-05T10:53:11.876Z 
+ ERROR  IP: ::1 URL: /3 STATUS: 200 MESSAGE:[object Object] 2023-11-05T10:53:14.529Z 
+ ERROR  IP: ::1 URL: /7 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T10:53:21.155Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=priority STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T10:54:28.068Z 
+ ERROR  IP: ::1 URL: /4 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T10:56:03.692Z 
+ ERROR  IP: ::1 URL: /3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T11:00:40.322Z 
+ ERROR  IP: ::1 URL: /filter?title=task%206&dueDate=12/23/22&priority=low STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T11:10:13.667Z 
+ ERROR  IP: ::1 URL: /8 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T11:18:30.081Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=priority STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T11:20:27.482Z 
+ ERROR  IP: ::1 URL: /pagination?page=1&pageSize=2 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T11:56:57.835Z 
+ ERROR  IP: ::1 URL: /pagination?page=4&pageSize=5 STATUS: 404 MESSAGE:Invalid pagination 2023-11-05T11:57:57.621Z 
+ ERROR  IP: ::1 URL: /pagination?page=4&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-05T11:58:45.322Z 

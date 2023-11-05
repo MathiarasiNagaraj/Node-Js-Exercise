@@ -3,6 +3,7 @@ const {
   TASK_ERROR_RESPONSE,
   TASK_SUCCESS_RESPONSE,
 } = require("../constants/response-constants");
+const { FILTER_TASKS } = require("../utils/common.util");
 const { writeFileData, readFileData } = require("../utils/file.utils");
 
 /**
@@ -55,22 +56,28 @@ const readTasksService = async (userName) => {
   try {
     const Tasks = await readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
-    const currentTasks = Tasks[userIndex].tasks; 
-    if (userIndex === -1||currentTasks.length===0){
+    if (userIndex === -1) {
+      return {
+        status: true,
+        statusCode: 204,
+        data: "USER NOT FOUND",
+      };
+    }
+    const currentTasks = Tasks[userIndex].tasks;
+
+    if (currentTasks.length === 0) {
       return {
         status: true,
         statusCode: 204,
         data: TASK_SUCCESS_RESPONSE.notaskFound,
       };
-    }
-    else {
+    } else {
       return {
         status: true,
         statusCode: 200,
         data: Tasks[userIndex].tasks,
       };
     }
-
   } catch (err) {
     return {
       status: false,
@@ -86,19 +93,18 @@ const readTasksService = async (userName) => {
  * @returns response with status code and task data for given ID
  */
 
-const readTaskByIdService = async (userName,id) => {
+const readTaskByIdService = async (userName, id) => {
   try {
     const Tasks = await readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
-    const currentTasks = Tasks[userIndex].tasks; 
-    if (userIndex === -1||currentTasks.length===0){
+    const currentTasks = Tasks[userIndex].tasks;
+    if (userIndex === -1 || currentTasks.length === 0) {
       return {
         status: true,
         statusCode: 204,
         data: TASK_SUCCESS_RESPONSE.notaskFound,
       };
-    }
-    else {
+    } else {
       const task = Tasks[userIndex].tasks.find((task) => task.id === id);
       if (task) {
         return {
@@ -106,8 +112,7 @@ const readTaskByIdService = async (userName,id) => {
           statusCode: 200,
           data: task,
         };
-      }
-      else {
+      } else {
         return {
           status: false,
           statusCode: 404,
@@ -129,30 +134,33 @@ const readTaskByIdService = async (userName,id) => {
  * @returns response with status code and  message of updating task data
  */
 
-const updateTaskByIdService = async (userName,id,updatedTask) => {
+const updateTaskByIdService = async (userName, id, updatedTask) => {
   try {
     const Tasks = await readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
-    const currentTasks = Tasks[userIndex].tasks; 
-    if (userIndex === -1||currentTasks.length===0){
+    const currentTasks = Tasks[userIndex].tasks;
+    if (userIndex === -1 || currentTasks.length === 0) {
       return {
         status: true,
         statusCode: 204,
         data: TASK_SUCCESS_RESPONSE.notaskFound,
       };
-    }
-    else {
+    } else {
       const task = Tasks[userIndex].tasks.find((task) => task.id === id);
       if (task) {
-      Object.keys(task).forEach((key)=> (task[key] = updatedTask.hasOwnProperty(key) ? updatedTask[key] : task[key]))
+        Object.keys(task).forEach(
+          (key) =>
+            (task[key] = updatedTask.hasOwnProperty(key)
+              ? updatedTask[key]
+              : task[key])
+        );
         await writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
         return {
           status: true,
           statusCode: 200,
           data: TASK_SUCCESS_RESPONSE.updateTask(task.id),
         };
-      }
-      else {
+      } else {
         return {
           status: false,
           statusCode: 404,
@@ -175,31 +183,31 @@ const updateTaskByIdService = async (userName,id,updatedTask) => {
  * @returns response with status code and  message of deleting task data
  */
 
-const deleteTaskByIdService = async (userName,id) => {
+const deleteTaskByIdService = async (userName, id) => {
   try {
     const Tasks = await readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
-    const currentTasks = Tasks[userIndex].tasks; 
-    if (userIndex === -1||currentTasks.length===0){
+    const currentTasks = Tasks[userIndex].tasks;
+    if (userIndex === -1 || currentTasks.length === 0) {
       return {
         status: true,
         statusCode: 204,
         data: TASK_SUCCESS_RESPONSE.notaskFound,
       };
-    }
-    else {
+    } else {
       const task = Tasks[userIndex].tasks.find((task) => task.id === id);
       if (task) {
-        const filteredTasks = Tasks[userIndex].tasks.filter((task) => task.id !== id);
-        Tasks[userIndex].tasks=filteredTasks
+        const filteredTasks = Tasks[userIndex].tasks.filter(
+          (task) => task.id !== id
+        );
+        Tasks[userIndex].tasks = filteredTasks;
         await writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
         return {
           status: true,
           statusCode: 200,
           data: TASK_SUCCESS_RESPONSE.deleteTask(task.id),
         };
-      }
-      else {
+      } else {
         return {
           status: false,
           statusCode: 404,
@@ -225,23 +233,21 @@ const deleteTasksService = async (userName) => {
   try {
     const Tasks = await readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
-    const currentTasks = Tasks[userIndex].tasks; 
-    if (userIndex === -1||currentTasks.length===0){
+    const currentTasks = Tasks[userIndex].tasks;
+    if (userIndex === -1 || currentTasks.length === 0) {
       return {
         status: true,
         statusCode: 204,
         data: TASK_SUCCESS_RESPONSE.notaskFound,
       };
-    }
-    else {
+    } else {
       Tasks[userIndex].tasks = [];
-        await writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
-        return {
-          status: true,
-          statusCode: 200,
-          data: TASK_SUCCESS_RESPONSE.deleteAllTasks(userName),
-        };
-     
+      await writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
+      return {
+        status: true,
+        statusCode: 200,
+        data: TASK_SUCCESS_RESPONSE.deleteAllTasks(userName),
+      };
     }
   } catch (err) {
     return {
@@ -257,9 +263,34 @@ const deleteTasksService = async (userName) => {
  * @returns response with status code and  filtered task data
  */
 
-const filterTaskService = async () => {
+const filterTaskService = async (userName,filter) => {
   try {
-  } catch (err) {}
+    const Tasks = await readFileData(TASK_FILE_PATH);
+    const userIndex = Tasks.findIndex((task) => task.userName === userName);
+    const currentTasks = Tasks[userIndex].tasks;
+    if (userIndex === -1 || currentTasks.length === 0) {
+      return {
+        status: true,
+        statusCode: 204,
+        data: TASK_SUCCESS_RESPONSE.notaskFound,
+      };
+
+    } else {
+   
+const filteredTasks=FILTER_TASKS(filter,currentTasks)
+      return {
+        status: true,
+        statusCode: 200,
+        data: filteredTasks,
+      };
+    }
+  } catch (err) {
+    return {
+      status: false,
+      statusCode: 500,
+      data: TASK_ERROR_RESPONSE.readTask + err.message,
+    };
+  }
 };
 /**
  * @author Mathiarasi
@@ -267,9 +298,63 @@ const filterTaskService = async () => {
  * @returns response with status code and  sorted task data
  */
 
-const sortTaskService = async () => {
+const sortTaskService = async (userName, sortCriteria) => {
   try {
-  } catch (err) {}
+    const Tasks = await readFileData(TASK_FILE_PATH);
+    const userIndex = Tasks.findIndex((task) => task.userName === userName);
+    const currentTasks = Tasks[userIndex].tasks;
+    if (userIndex === -1 || currentTasks.length === 0) {
+      return {
+        status: true,
+        statusCode: 204,
+        data: TASK_SUCCESS_RESPONSE.notaskFound,
+      };
+    } else {
+      let sortedData = [];
+    
+      switch (sortCriteria) {
+        case "title":
+          sortedData = currentTasks.sort((task1, task2) => {
+            const TITLE_1 = task1.title.toUpperCase();
+            const TITLE_2 = task2.title.toUpperCase();
+            return TITLE_1 > TITLE_2 ? 1 : TITLE_2 > TITLE_1 ? -1 : 0;
+          });
+          break;
+        case "priority":
+          const PRIORITIES = ["high", "medium", "low"];
+          sortedData = currentTasks.sort((task1, task2) => {
+            const PRIORITY_1 = PRIORITIES.indexOf(task1.priority.toLowerCase());
+            const PRIORITY_2 = PRIORITIES.indexOf(task2.priority.toLowerCase());
+            return PRIORITY_1 > PRIORITY_2
+              ? 1
+              : PRIORITY_2 > PRIORITY_1
+              ? -1
+              : 0;
+          });
+          break;
+        case "dueDate":
+          sortedData = currentTasks.sort((task1, task2) => {
+            const DATE_1 = new Date(task1.dueDate);
+            const DATE_2 = new Date(task2.dueDate);
+            return DATE_1 > DATE_2 ? 1 : DATE_2 > DATE_1 ? -1 : 0;
+          });
+          break;
+        default:
+          throw new Error("Invalid sort request!!!");
+      }
+      return {
+        status: true,
+        statusCode: 200,
+        data: sortedData,
+      };
+    }
+  } catch (err) {
+    return {
+      status: false,
+      statusCode: 500,
+      data: TASK_ERROR_RESPONSE.readTask + err.message,
+    };
+  }
 };
 
 /**
@@ -278,9 +363,43 @@ const sortTaskService = async () => {
  * @returns response with status code and  message of updating task data
  */
 
-const paginationTaskService = async () => {
+const paginationTaskService = async (userName,page,pageSize) => {
   try {
-  } catch (err) {}
+    const Tasks = await readFileData(TASK_FILE_PATH);
+    const userIndex = Tasks.findIndex((task) => task.userName === userName);
+    const currentTasks = Tasks[userIndex].tasks;
+    if (userIndex === -1 || currentTasks.length === 0) {
+      return {
+        status: true,
+        statusCode: 204,
+        data: TASK_SUCCESS_RESPONSE.notaskFound,
+      };
+    } else {
+      const startIndex = (page - 1) * pageSize;
+      const endIndex = startIndex + pageSize;
+      if (startIndex > currentTasks.length || page === 0 || pageSize === 0)
+      {
+        return {
+          status: false,
+          statusCode: 404,
+          data: 'Invalid pagination',
+        };
+        }
+      const filteredTasks = currentTasks.slice(startIndex, endIndex);
+      return {
+        status: true,
+        statusCode: 200,
+        data: filteredTasks,
+      };
+
+    }
+  } catch (err) {
+    return {
+      status: false,
+      statusCode: 500,
+      data: TASK_ERROR_RESPONSE.readTask + err.message,
+    };
+  }
 };
 
 module.exports = {

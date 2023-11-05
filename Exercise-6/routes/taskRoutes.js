@@ -8,10 +8,6 @@ router.route(TASK_ROUTE.general)
     .post(taskController.addTaskController)
     .delete(taskController.deleteTasksController);
 
-router.route(TASK_ROUTE.specific)
-    .get(taskController.readTaskByIdController)
-    .patch(taskController.updateTaskByIdController)
-    .delete(taskController.deleteTaskByIdController);
 
 router.route(TASK_ROUTE.filter)
     .get(taskController.filterTaskController)
@@ -20,3 +16,8 @@ router.route(TASK_ROUTE.sort)
 router.route(TASK_ROUTE.pagination)
     .get(taskController.paginationTaskController)
 module.exports = router;
+
+router.route(TASK_ROUTE.specific)
+    .get(taskController.readTaskByIdController)
+    .patch(taskController.updateTaskByIdController)
+    .delete(taskController.deleteTaskByIdController);
