@@ -4,7 +4,7 @@
   "description": "Listify application is a simple task management tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon server"
   },
   "nodemonConfig": {

@@ -102,3 +102,6 @@
  ERROR  IP: ::1 URL: /pagination?page=1&pageSize=2 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-05T11:56:57.835Z 
  ERROR  IP: ::1 URL: /pagination?page=4&pageSize=5 STATUS: 404 MESSAGE:Invalid pagination 2023-11-05T11:57:57.621Z 
  ERROR  IP: ::1 URL: /pagination?page=4&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-05T11:58:45.322Z 
+ ERROR  IP: ::1 URL: /register STATUS: 409 MESSAGE:Nilla ALREADY EXISTS 2023-11-06T04:39:10.626Z 
+ ERROR  IP: ::1 URL: /login STATUS: 404 MESSAGE:Nilla2 NOT FOUND 2023-11-06T04:40:50.787Z 
+ ERROR  IP: ::1 URL: /4 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2023-11-06T04:41:21.237Z 

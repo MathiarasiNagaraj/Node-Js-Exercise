@@ -1,6 +1,7 @@
 const LOGGER = require("../logger/index");
 const taskServices = require("../services/tasksService");
 const { verifyJWTToken } = require("../utils/auth.utils");
+const { TASKS_VALIDATION } = require("../utils/common.util");
 
 /**
  * @author Mathiarasi
@@ -21,13 +22,20 @@ const addTaskController = async (req, res) => {
     comments: req.body.comments,
     createdDate: new Date().toISOString(),
   };
-  const response = await taskServices.addTaskService(userName, task);
-  if (!response.status) {
-    LOGGER.error(
-      `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
-    );
+  const isValidated =TASKS_VALIDATION(task);
+  
+  if (!isValidated.status) {
+    res.status(400).json({ message: isValidated.message });
   }
-  res.status(response.statusCode).json({ message: response.data });
+  else {
+    const response = await taskServices.addTaskService(userName, task);
+    if (!response.status) {
+      LOGGER.error(
+        `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
+      );
+    }
+    res.status(response.statusCode).json({ message: response.data });
+  }
 };
 /**
  * @author Mathiarasi
@@ -82,17 +90,24 @@ const readTaskByIdController = async (req, res) => {
 const updateTaskByIdController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
   const userName = verifyJWTToken(req, res);
-  const response = await taskServices.updateTaskByIdService(
-    userName,
-    parseInt(req.params.id),
-    req.body
-  );
-  if (!response.status) {
-    LOGGER.error(
-      `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
-    );
+  const isValidated =TASKS_VALIDATION(req.body);
+  
+  if (!isValidated.status) {
+    res.status(400).json({ message: isValidated.message });
   }
-  res.status(response.statusCode).json({ message: response.data });
+  else {
+    const response = await taskServices.updateTaskByIdService(
+      userName,
+      parseInt(req.params.id),
+      req.body
+    );
+    if (!response.status) {
+      LOGGER.error(
+        `ERROR  IP: ${req.ip} URL: ${req.url} STATUS: ${response.statusCode} MESSAGE:${response.data}`
+      );
+    }
+    res.status(response.statusCode).json({ message: response.data });
+  }
 };
 
 /**
