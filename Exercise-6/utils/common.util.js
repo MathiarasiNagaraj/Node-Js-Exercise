@@ -1,6 +1,9 @@
 const { TASK_VALIDATION } = require("../constants/common-constants");
 
-const USER_VALIDATION = (user) => {};
+const USER_VALIDATION = (user) => {
+
+    
+};
 const TASKS_VALIDATION = (task) => {
     let errors = "";
 
