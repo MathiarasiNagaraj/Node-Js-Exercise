@@ -73,7 +73,9 @@ const updateBuddy = async (id, data) => {
       return { status: false, data: "BUDDY ID NOT FOUND" };
     }
     const updatedBuddies = existingBuddies.map((buddy) => {
-      if (buddy.id == data.id) {
+
+      if (buddy.id == id) {
+        console.log(buddy.id, updatedbuddy,'new');
         return {
           ...buddy,
           realName: updatedbuddy.realName,
@@ -82,8 +84,11 @@ const updateBuddy = async (id, data) => {
           hobbies: updatedbuddy.hobbies,
         };
       }
+      console.log(buddy.realName);
       return buddy;
     });
+    console.log(updatedbuddy);
+    console.log(updatedBuddies)
     writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(updatedBuddies));
     return { status: true, data: `Data  ID:${id} updated successfully` };
   } catch (e) {
