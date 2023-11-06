@@ -14,32 +14,40 @@ const CHECK_ID_EXISTENCE = async(id) => {
     const buddy = alldata.find((buddy) => buddy.id === id);
     return buddy ? false : true;
 }
+
+const GENERATE_BUDDY_ID = () => {
+  const min = 1000;
+  const max = 9999;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 const BUDDY_VALIDATION = (data) => {
   const errorMessages = [];
   let status = true;
   let message = "";
-  // Validate realName and nickName
+
   if (
     typeof data.realName !== "string" ||
-    (data.realName.trim().length < 2 && !/^[a-zA-Z]{2,}$/.test(data.realName))
+    (!/^[A-Za-z]+$/.test(data.realName))|| (data.realName.trim().length < 2) 
   ) {
+    if (!/^[A-Za-z]+$/.test(data.realName))
+      errorMessages.push('Name should only contain alphabets')
+    else
     errorMessages.push(BUDDY_VALIDATION_ERROR.realName);
   }
   if (
     typeof data.nickName !== "string" ||
-    (data.nickName.trim().length < 2 && !/^[a-zA-Z]{2,}$/.test(data.realName))
+    !/^[A-Za-z]+$/.test(data.nickName)|| (data.nickName.trim().length < 2 )
   ) {
-    errorMessages.push(BUDDY_VALIDATION_ERROR.nickName);
+    if (!/^[A-Za-z]+$/.test(data.nickName))
+      errorMessages.push('Nick Name should only contain alphabets');
+    else
+     errorMessages.push(BUDDY_VALIDATION_ERROR.nickName);
   }
 
   // Validate dob
   const dob = new Date(data.dob);
   if (isNaN(dob) || dob > new Date()) {
     errorMessages.push(BUDDY_VALIDATION_ERROR.dob);
-  }
-
-  if (data.hobbies.length === 0) {
-    errorMessages.push(BUDDY_VALIDATION_ERROR.hobbies);
   }
 
   const errorMessageString = errorMessages.join("\n");
@@ -52,5 +60,6 @@ const BUDDY_VALIDATION = (data) => {
 };
 module.exports = {
     BUDDY_VALIDATION,
-    CHECK_ID_EXISTENCE
+  CHECK_ID_EXISTENCE,
+  GENERATE_BUDDY_ID
 };

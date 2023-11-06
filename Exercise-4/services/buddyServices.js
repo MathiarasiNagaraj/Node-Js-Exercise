@@ -10,9 +10,9 @@ const { BUDDY_ERROR } = require("../constants/error-constants");
 const getAllBuddies = async () => {
   try {
     const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
-    return { status: true, data: existingBuddies };
+    return { status: true, data: existingBuddies ,statusCode:200};
   } catch (e) {
-    return { status: false, data: BUDDY_ERROR.getAll + e };
+    return { status: false, data: BUDDY_ERROR.getAll + e ,statusCode:500};
   }
 };
 
@@ -30,11 +30,11 @@ const getBuddyWithId = async (id) => {
     );
 
     if (!buddy) {
-      return { status: false, data: "BUDDY ID NOT FOUND" };
+      return { status: false, data: "BUDDY ID NOT FOUND" ,statusCode:404};
     }
-    return { status: true, data: buddy };
+    return { status: true, data: buddy ,statusCode:200};
   } catch (e) {
-    return { status: false, data: BUDDY_ERROR.get + e };
+    return { status: false, data: BUDDY_ERROR.get + e ,statusCode:500};
   }
 };
 
@@ -49,9 +49,9 @@ const createNewBuddy = async (data) => {
     const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
     existingBuddies.push(data);
     writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(existingBuddies));
-    return { status: true, data: `Data added ID:${data.id}` };
+    return { status: true, data: `Data added ID:${data.id}` ,statusCode:200};
   } catch (e) {
-    return { status: false, data: BUDDY_ERROR.add + e };
+    return { status: false, data: BUDDY_ERROR.add + e ,statusCode:500};
   }
 };
 
@@ -70,12 +70,12 @@ const updateBuddy = async (id, data) => {
     const buddy = existingBuddies.find((buddy) => buddy.id === id);
 
     if (!buddy) {
-      return { status: false, data: "BUDDY ID NOT FOUND" };
+      return { status: false, data: "BUDDY ID NOT FOUND" ,statusCode:404};
     }
     const updatedBuddies = existingBuddies.map((buddy) => {
 
       if (buddy.id == id) {
-        console.log(buddy.id, updatedbuddy,'new');
+
         return {
           ...buddy,
           realName: updatedbuddy.realName,
@@ -84,15 +84,14 @@ const updateBuddy = async (id, data) => {
           hobbies: updatedbuddy.hobbies,
         };
       }
-      console.log(buddy.realName);
+
       return buddy;
     });
-    console.log(updatedbuddy);
-    console.log(updatedBuddies)
+
     writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(updatedBuddies));
-    return { status: true, data: `Data  ID:${id} updated successfully` };
+    return { status: true, data: `Data  ID:${id} updated successfully` ,statusCode:200};
   } catch (e) {
-    return { status: false, data: BUDDY_ERROR.update + e };
+    return { status: false, data: BUDDY_ERROR.update + e ,statusCode:500};
   }
 };
 
@@ -107,13 +106,13 @@ const deleteBuddy = async (id) => {
     const existingBuddies = await readBuddiesFile(DATA_FILE_PATH);
     const buddy = existingBuddies.find((buddy) => buddy.id === id);
     if (!buddy) {
-      return { status: false, data: `Buddy ID ${id} not found` };
+      return { status: false, data: `Buddy ID ${id} not found` ,statusCode:404};
     }
     const filteredBuddies = existingBuddies.filter((buddy) => buddy.id !== id);
     writeBuddiesFile(DATA_FILE_PATH, JSON.stringify(filteredBuddies));
-    return { status: true, data: `${id} deleted successfully` };
+    return { status: true, data: `${id} deleted successfully` ,statusCode:200};
   } catch (e) {
-    return { status: false, data: BUDDY_ERROR.delete + e };
+    return { status: false, data: BUDDY_ERROR.delete + e ,statusCode:500};
   }
 };
 
@@ -125,9 +124,9 @@ const deleteBuddy = async (id) => {
 const deleteAllBuddy = async () => {
   try {
     writeBuddiesFile(DATA_FILE_PATH, JSON.stringify([]));
-    return { status: true, data: `ALL BUDDIES DELETED` };
+    return { status: true, data: `ALL BUDDIES DELETED` ,statusCode:200};
   } catch (e) {
-    return { status: false, data: BUDDY_ERROR.delete + e };
+    return { status: false, data: BUDDY_ERROR.delete + e,statusCode:500 };
   }
 };
 module.exports = {

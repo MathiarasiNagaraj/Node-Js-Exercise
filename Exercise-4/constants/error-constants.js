@@ -10,7 +10,7 @@ const BUDDY_ERROR = {
 const BUDDY_VALIDATION_ERROR = {
     realName: ' Name should contain atleast 3 character',
     nickName: ' Nick Name should contain atleast 3 character',
-    dob: 'Date of birth should be prior to today',
+    dob: 'Invalid Date',
     hobbies:'Hobbies List should contain at least one hobby'
 }
 module.exports = {
