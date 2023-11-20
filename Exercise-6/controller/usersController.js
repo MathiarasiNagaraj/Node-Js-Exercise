@@ -13,8 +13,9 @@ const { USER_VALIDATION } = require("../utils/common.util");
 const registerController = async (req, res) => {
   LOGGER.info(`INFO IP:${req.ip}, URL:${req.url}`);
   const { userName, password } = req.body;
-  if (!userName || !password) {
-    res.status(400).send({ message: USER_ERROR_RESPONSE.invalidInput });
+  const isValidated = USER_VALIDATION(req.body);
+  if (!isValidated.status) {
+    res.status(400).send({ message: isValidated.message});
   } else {
     const response = await userServices.registerService(req.body);
     if (response.status) {

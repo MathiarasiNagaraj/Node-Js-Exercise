@@ -1,7 +1,8 @@
+const { TASK_ERROR_RESPONSE } = require("../constants/response-constants");
 const LOGGER = require("../logger/index");
 const taskServices = require("../services/tasksService");
 const { verifyJWTToken } = require("../utils/auth.utils");
-const { TASKS_VALIDATION } = require("../utils/common.util");
+const { TASKS_VALIDATION, IS_VALID_JSON } = require("../utils/common.util");
 
 /**
  * @author Mathiarasi
@@ -13,7 +14,11 @@ const { TASKS_VALIDATION } = require("../utils/common.util");
 
 const addTaskController = async (req, res) => {
   LOGGER.info(`INFO  ADD IP: ${req.ip} URL: ${req.url} `);
+  
   const userName = verifyJWTToken(req, res);
+  if (Object.keys(req.body).length === 0) {
+    res.status(400).json({ message:TASK_ERROR_RESPONSE.noInput});
+ }
   const task = {
     title: req.body.title,
     description: req.body.description,
@@ -47,6 +52,7 @@ const addTaskController = async (req, res) => {
 
 const readTasksController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
+ 
   const userName = verifyJWTToken(req, res);
   const response = await taskServices.readTasksService(userName);
   if (!response.status) {
@@ -67,6 +73,7 @@ const readTasksController = async (req, res) => {
 
 const readTaskByIdController = async (req, res) => {
   LOGGER.info(`INFO ready by id  IP: ${req.ip} URL: ${req.url}`);
+
   const userName = verifyJWTToken(req, res);
   const response = await taskServices.readTaskByIdService(
     userName,
@@ -89,6 +96,9 @@ const readTaskByIdController = async (req, res) => {
 
 const updateTaskByIdController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
+  if (Object.keys(req.body).length === 0) {
+    res.status(400).json({ message:TASK_ERROR_RESPONSE.noInput});
+ }
   const userName = verifyJWTToken(req, res);
   const isValidated =TASKS_VALIDATION(req.body);
   
@@ -120,6 +130,8 @@ const updateTaskByIdController = async (req, res) => {
 
 const deleteTaskByIdController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
+
+
   const userName = verifyJWTToken(req, res);
   const response = await taskServices.deleteTaskByIdService(
     userName,
@@ -143,7 +155,9 @@ const deleteTaskByIdController = async (req, res) => {
 
 const deleteTasksController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
+  
   const userName = verifyJWTToken(req, res);
+
   const response = await taskServices.deleteTasksService(userName);
   if (!response.status) {
     LOGGER.error(
@@ -163,6 +177,7 @@ const deleteTasksController = async (req, res) => {
 
 const filterTaskController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
+  
   const userName = verifyJWTToken(req, res);
 
  
@@ -187,6 +202,7 @@ req.query
 
 const sortTaskController = async (req, res) => {
   LOGGER.info(`INFO SORT IP: ${req.ip} URL: ${req.url}`);
+  
   const userName = verifyJWTToken(req, res);
   const { sortBy } = req.query;
   const response = await taskServices.sortTaskService(userName, sortBy);
@@ -208,7 +224,7 @@ const sortTaskController = async (req, res) => {
 
 const paginationTaskController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
-  
+
   const userName = verifyJWTToken(req, res);
   const {page,pageSize}=req.query
   const response = await taskServices.paginationTaskService(userName,page,pageSize);
