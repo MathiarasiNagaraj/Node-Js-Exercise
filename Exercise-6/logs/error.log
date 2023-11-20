@@ -197,3 +197,11 @@
  ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:11:13.760Z 
  ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:13:23.357Z 
  ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:14:11.740Z 
+ ERROR  IP: ::1 URL: /pagination?page=4&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:10:02.550Z 
+ ERROR  IP: ::1 URL: /pagination?page=4&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:10:22.908Z 
+ ERROR  IP: ::1 URL: /pagination?page=4&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:13:17.783Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:15:24.046Z 
+ ERROR  IP: ::1 URL: /pagination?page=4&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:15:31.094Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:16:28.911Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:19:58.566Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:21:03.665Z 

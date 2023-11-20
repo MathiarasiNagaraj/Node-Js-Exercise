@@ -4,7 +4,7 @@
   "description": "Listify application is a simple task management tool",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/filterTasks.test.js",
+    "test": "mocha test/paginationTasks.test.js",
     "start": "nodemon server"
   },
   "nodemonConfig": {
