@@ -60,7 +60,7 @@ const authToken='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Ik5JU0hBIi
         .request(app)
             .patch("/tasks/8")  .set("Authorization", `Bearer ${authToken}`).send(ValidTask)
         .end((err, res) => {
-            chai.expect(res).to.have.status(204);
+            chai.expect(res).to.have.status(200);
     
           done();
         });

@@ -351,8 +351,8 @@ const sortTaskService = async (userName, sortCriteria) => {
   } catch (err) {
     return {
       status: false,
-      statusCode: 500,
-      data: TASK_ERROR_RESPONSE.readTask + err.message,
+      statusCode: 400,
+      data:  err.message,
     };
   }
 };

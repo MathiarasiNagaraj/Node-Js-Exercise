@@ -173,3 +173,27 @@
  ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-19T16:18:10.743Z 
  ERROR  IP: ::ffff:127.0.0.1 URL: /6 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-19T16:18:10.746Z 
  ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-19T16:18:31.396Z 
+ ERROR  IP: ::1 URL: /8 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T01:43:00.739Z 
+ ERROR  IP: ::1 URL: /sort?sortBy STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-20T01:49:25.268Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=custom STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-20T01:51:16.978Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=custom STATUS: 500 MESSAGE:ERROR IN READING USERInvalid sort request!!! 2023-11-20T01:51:48.913Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=custom STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T01:54:06.277Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T01:56:35.452Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T01:58:02.546Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T01:58:30.107Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T01:59:15.089Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T01:59:30.594Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:00:01.841Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:00:38.992Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:00:55.245Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:02:47.552Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:03:30.123Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:04:38.929Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:05:16.783Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:06:20.709Z 
+ ERROR  IP: ::1 URL: /sort?sortBy=priorty STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:06:36.416Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:07:49.494Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:10:02.209Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:11:13.760Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:13:23.357Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T02:14:11.740Z 
