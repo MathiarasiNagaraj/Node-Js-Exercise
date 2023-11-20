@@ -92,10 +92,21 @@ const FILTER_TASKS = (filters, tasks) => {
 
   return filtersTasks;
 };
-
+const ARE_FIELDS_PRESENT=(referenceObject, targetObject) =>{
+  // Iterate through the properties of the referenceObject
+  for (const key in referenceObject) {
+    // Check if the property exists in the targetObject
+    console.log(targetObject.hasOwnProperty(key),targetObject,referenceObject)
+    if (!targetObject.hasOwnProperty(key)) {
+      return false;
+    }
+  }
+  return true;
+}
 module.exports = {
   USER_VALIDATION,
   FILTER_TASKS,
   TASKS_VALIDATION,
-  IS_VALID_JSON
+  IS_VALID_JSON,
+  ARE_FIELDS_PRESENT
 };

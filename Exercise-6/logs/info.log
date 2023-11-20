@@ -2663,3 +2663,113 @@
  INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=title 2023-11-20T02:14:11.743Z 
  INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2023-11-20T02:14:11.746Z 
  INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=dueDate 2023-11-20T02:14:11.749Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:00:52.916Z 
+ INFO IP:::1, URL:/login 2023-11-20T03:00:57.850Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:01:12.783Z 
+ INFO IP: ::1 URL: / 2023-11-20T03:01:17.511Z 
+ INFO IP: ::1 URL: / 2023-11-20T03:01:22.576Z 
+ INFO IP: ::1 URL: /filter?priority=medium 2023-11-20T03:01:35.615Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:02:23.008Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filterBy=priority 2023-11-20T03:02:23.017Z 
+ INFO IP: ::1 URL: /filter?priority=CUSTOM 2023-11-20T03:02:52.739Z 
+ INFO IP: ::1 URL: /filter?CUSTOM=WER 2023-11-20T03:03:10.986Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:19:43.938Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:20:03.104Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:20:05.355Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:20:15.436Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:20:17.318Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:20:31.444Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:20:38.335Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:20:39.393Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:20:41.833Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:20:43.716Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:20:43.863Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:22:31.004Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:23:27.258Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:24:11.485Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:24:17.777Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:24:19.844Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:24:21.127Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:24:24.844Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:24:26.262Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:24:32.345Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:24:43.048Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:24:44.250Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:24:47.928Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:25:14.818Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:25:20.426Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:25:20.693Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:25:33.680Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:25:33.886Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:25:44.839Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:27:14.202Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:27:17.723Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:27:19.144Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:27:21.674Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:27:26.354Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:27:29.597Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:27:38.563Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:27:39.756Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:28:12.569Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:28:16.659Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:28:18.725Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:28:25.745Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:28:28.898Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:28:31.267Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:28:48.562Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:28:50.730Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:29:08.337Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:29:12.337Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:29:15.036Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:29:18.852Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:29:19.321Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:41:38.326Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:41:41.464Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:41:44.233Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:42:25.548Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:42:37.561Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:42:37.571Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:45:35.211Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:45:35.221Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filterBy=priority 2023-11-20T03:45:35.228Z 
+ INFO IP:::1, URL:/login 2023-11-20T03:45:41.261Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:45:58.414Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:45:58.423Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filterBy=priority 2023-11-20T03:45:58.430Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:47:36.881Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:47:36.891Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filterBy=priority 2023-11-20T03:47:36.897Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:48:43.605Z 
+ INFO IP: ::1 URL: /filter?priority=medium&dueDate=12/23/22 2023-11-20T03:49:10.482Z 
+ INFO IP: ::1 URL: /filter?priority=medium 2023-11-20T03:49:15.706Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:49:52.649Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:49:52.659Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=medium 2023-11-20T03:49:52.666Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filterBy=title 2023-11-20T03:49:52.673Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:51:13.352Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:51:13.361Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=medium 2023-11-20T03:51:13.368Z 
+ INFO IP: ::1 URL: /filter?priority=medium&title=task%206 2023-11-20T03:51:50.617Z 
+ INFO  ADD IP: ::1 URL: /  2023-11-20T03:52:11.553Z 
+ INFO  ADD IP: ::1 URL: /  2023-11-20T03:52:36.044Z 
+ INFO IP: ::1 URL: /filter?priority=medium&title=task%206 2023-11-20T03:52:46.858Z 
+ INFO IP: ::1 URL: /filter?priority=medium&title=task%207 2023-11-20T03:53:01.107Z 
+ INFO IP: ::1 URL: /filter?priority=medium&title=task%207 2023-11-20T03:53:25.338Z 
+ INFO IP: ::1 URL: /filter?priority=medium 2023-11-20T03:53:34.259Z 
+ INFO IP: ::1 URL: /filter?priority=medium&title=task%208 2023-11-20T03:53:52.737Z 
+ INFO IP: ::1 URL: / 2023-11-20T03:54:05.563Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:54:40.543Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:54:40.553Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=medium 2023-11-20T03:54:40.560Z 
+ INFO IP: ::1 URL: /filter?priority=medium&title=task%208 2023-11-20T03:55:13.583Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:55:35.804Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:55:35.814Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=medium 2023-11-20T03:55:35.821Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:56:24.013Z 
+ INFO IP: ::1 URL: /filter?priority=medium&title=task%208 2023-11-20T03:56:26.052Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:56:43.179Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:56:43.189Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=medium 2023-11-20T03:56:43.195Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T03:57:57.413Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T03:57:57.423Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=medium 2023-11-20T03:57:57.429Z 

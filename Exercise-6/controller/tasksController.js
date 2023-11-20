@@ -1,8 +1,9 @@
 const { TASK_ERROR_RESPONSE } = require("../constants/response-constants");
+const { TASK } = require("../dto/task.dto");
 const LOGGER = require("../logger/index");
 const taskServices = require("../services/tasksService");
 const { verifyJWTToken } = require("../utils/auth.utils");
-const { TASKS_VALIDATION, IS_VALID_JSON } = require("../utils/common.util");
+const { TASKS_VALIDATION, IS_VALID_JSON, ARE_FIELDS_PRESENT } = require("../utils/common.util");
 
 /**
  * @author Mathiarasi
@@ -177,7 +178,9 @@ const deleteTasksController = async (req, res) => {
 
 const filterTaskController = async (req, res) => {
   LOGGER.info(`INFO IP: ${req.ip} URL: ${req.url}`);
+
   
+
   const userName = verifyJWTToken(req, res);
 
  
