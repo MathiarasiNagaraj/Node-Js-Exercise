@@ -4,25 +4,29 @@ const {
   FILE_READ_ERROR,
 } = require("../constants/common-constants");
 const LOGGER = require("../logger");
-
+const util = require('util');
 /**
  * @description function for reading file content 
  * @param {*} path file path
  * @returns file data in JSON
  */
+
 const readFileData = async (path) => {
-  return readFile(path, "utf-8").then((data, err) => {
-    if (err) {
-      LOGGER.error(`FILE ERROR${FILE_READ_ERROR}`);
-    } else {
-      if (!data) {
-        // Handle the case when the file is empty
-        return [];
-      }
-      return JSON.parse(data);
+  try {
+    const data = await readFile(path, "utf-8");
+    
+    if (!data) {
+      // Handle the case when the file is empty
+      return [];
     }
-  });
+
+    return JSON.parse(data);
+  } catch (err) {
+    LOGGER.error(`FILE ERROR ${FILE_READ_ERROR}`, err);
+    throw err; // Re-throw the error to be caught by the calling code
+  }
 };
+
 /**
  * @description function for writing file content
  * @param {*} path  file path

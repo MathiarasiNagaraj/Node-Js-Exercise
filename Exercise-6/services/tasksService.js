@@ -4,7 +4,7 @@ const {
   TASK_SUCCESS_RESPONSE,
 } = require("../constants/response-constants");
 const { FILTER_TASKS } = require("../utils/common.util");
-const { writeFileData, readFileData } = require("../utils/file.utils");
+const FILE_UTILS = require("../utils/file.utils");
 
 /**
  * @author Mathiarasi
@@ -14,7 +14,7 @@ const { writeFileData, readFileData } = require("../utils/file.utils");
 
 const addTaskService = async (userName, task) => {
   try {
-    const Tasks = await readFileData(TASK_FILE_PATH);
+    const Tasks = await FILE_UTILS.readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
     const currentTaskId = Tasks[userIndex]?.tasks?.length + 1 || 1;
     if (userIndex == -1) {
@@ -28,10 +28,10 @@ const addTaskService = async (userName, task) => {
         ],
       };
       Tasks.push(newUser);
-      await writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
+      await FILE_UTILS.writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
     } else {
       Tasks[userIndex].tasks.push({ ...task, id: currentTaskId });
-      await writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
+      await FILE_UTILS.writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
     }
     return {
       status: true,
@@ -54,7 +54,7 @@ const addTaskService = async (userName, task) => {
 
 const readTasksService = async (userName) => {
   try {
-    const Tasks = await readFileData(TASK_FILE_PATH);
+    const Tasks = await FILE_UTILS.readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
     if (userIndex === -1) {
       return {
@@ -95,7 +95,7 @@ const readTasksService = async (userName) => {
 
 const readTaskByIdService = async (userName, id) => {
   try {
-    const Tasks = await readFileData(TASK_FILE_PATH);
+    const Tasks = await FILE_UTILS.readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
     const currentTasks = Tasks[userIndex].tasks;
     if (userIndex === -1 || currentTasks.length === 0) {
@@ -136,7 +136,7 @@ const readTaskByIdService = async (userName, id) => {
 
 const updateTaskByIdService = async (userName, id, updatedTask) => {
   try {
-    const Tasks = await readFileData(TASK_FILE_PATH);
+    const Tasks = await FILE_UTILS.readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
     const currentTasks = Tasks[userIndex].tasks;
     if (userIndex === -1 || currentTasks.length === 0) {
@@ -154,7 +154,7 @@ const updateTaskByIdService = async (userName, id, updatedTask) => {
               ? updatedTask[key]
               : task[key])
         );
-        await writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
+        await FILE_UTILS.writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
         return {
           status: true,
           statusCode: 200,
@@ -185,7 +185,7 @@ const updateTaskByIdService = async (userName, id, updatedTask) => {
 
 const deleteTaskByIdService = async (userName, id) => {
   try {
-    const Tasks = await readFileData(TASK_FILE_PATH);
+    const Tasks = await FILE_UTILS.readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
     const currentTasks = Tasks[userIndex].tasks;
     if (userIndex === -1 || currentTasks.length === 0) {
@@ -201,7 +201,7 @@ const deleteTaskByIdService = async (userName, id) => {
           (task) => task.id !== id
         );
         Tasks[userIndex].tasks = filteredTasks;
-        await writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
+        await FILE_UTILS.writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
         return {
           status: true,
           statusCode: 200,
@@ -231,10 +231,13 @@ const deleteTaskByIdService = async (userName, id) => {
 
 const deleteTasksService = async (userName) => {
   try {
-    const Tasks = await readFileData(TASK_FILE_PATH);
+    const Tasks = await FILE_UTILS.readFileData(TASK_FILE_PATH);
+
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
     const currentTasks = Tasks[userIndex].tasks;
+
     if (userIndex === -1 || currentTasks.length === 0) {
+
       return {
         status: true,
         statusCode: 204,
@@ -242,7 +245,9 @@ const deleteTasksService = async (userName) => {
       };
     } else {
       Tasks[userIndex].tasks = [];
-      await writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
+
+      await FILE_UTILS.writeFileData(TASK_FILE_PATH, JSON.stringify(Tasks));
+
       return {
         status: true,
         statusCode: 200,
@@ -265,7 +270,7 @@ const deleteTasksService = async (userName) => {
 
 const filterTaskService = async (userName,filter) => {
   try {
-    const Tasks = await readFileData(TASK_FILE_PATH);
+    const Tasks = await FILE_UTILS.readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
     const currentTasks = Tasks[userIndex].tasks;
     if (userIndex === -1 || currentTasks.length === 0) {
@@ -300,7 +305,7 @@ const filteredTasks=FILTER_TASKS(filter,currentTasks)
 
 const sortTaskService = async (userName, sortCriteria) => {
   try {
-    const Tasks = await readFileData(TASK_FILE_PATH);
+    const Tasks = await FILE_UTILS.readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
     const currentTasks = Tasks[userIndex].tasks;
     if (userIndex === -1 || currentTasks.length === 0) {
@@ -365,7 +370,7 @@ const sortTaskService = async (userName, sortCriteria) => {
 
 const paginationTaskService = async (userName,page,pageSize) => {
   try {
-    const Tasks = await readFileData(TASK_FILE_PATH);
+    const Tasks = await FILE_UTILS.readFileData(TASK_FILE_PATH);
     const userIndex = Tasks.findIndex((task) => task.userName === userName);
     const currentTasks = Tasks[userIndex].tasks;
     if (userIndex === -1 || currentTasks.length === 0) {
@@ -407,7 +412,7 @@ module.exports = {
   readTasksService,
   readTaskByIdService,
   updateTaskByIdService,
-  deleteTaskByIdService,
+   deleteTaskByIdService,
   deleteTasksService,
   filterTaskService,
   sortTaskService,

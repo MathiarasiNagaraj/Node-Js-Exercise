@@ -134,6 +134,7 @@ const deleteTaskByIdController = async (req, res) => {
 
 
   const userName = verifyJWTToken(req, res);
+  console.log(userName)
   const response = await taskServices.deleteTaskByIdService(
     userName,
     parseInt(req.params.id)

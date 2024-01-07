@@ -4,12 +4,49 @@ const chai = require("chai");
 const chaiHttp = require("chai-http");
 const app = require("../index");
 chai.use(chaiHttp);
+
+const FILE_UTILS = require("../utils/file.utils");
+const { USER_FILE_PATH } = require("../constants/common-constants");
+const fileData=[
+  {
+    "userName": "Mathiarasi N",
+    "password": "$2b$20$X1.XSWoXEILrU4jnNCCW0ONG9uQPWdVS8eOQScayrL6zVJfL5CIpy"
+  },
+  {
+    "userName": "NISHA",
+    "password": "$2b$10$0trwcWYPwNzHgvYIItFl.e1RRq78qmTByxzVUfrA.ZEKRdM9LnMdW",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Ik5JU0hBIiwiaWF0IjoxNzAwNDUzNzM0LCJleHAiOjE3MDA1NDAxMzR9.dHU0vaj0dq3_1UQ1qqQMK-Yy28SsL1xnetC0kDDQM2s"
+  },
+]
 describe("Unit test for User Registeration", () => {
+  let sandbox;
+  let readFileStub;
+  let writeFileStub;
+
+  beforeEach(() => {
+    // Create a sinon sandbox for stubs and spies
+    sandbox = sinon.createSandbox();
+
+    // Stub the readFileData method from fileUtils
+    readFileStub = sandbox
+      .stub(FILE_UTILS, "readFileData")
+      .withArgs(USER_FILE_PATH)
+      .returns(Promise.resolve(fileData));
+    writeFileStub = sandbox
+      .stub(FILE_UTILS, "writeFileData")
+      .withArgs(USER_FILE_PATH)
+      .returns(Promise.resolve());
+  });
+
+  afterEach(() => {
+    // Restore the sandbox to clean up stubs after each test
+    sandbox.restore();
+  });
   it("Registering with invalid inputs", (done) => {
     chai
       .request(app)
       .post("/users/register").send({
-        "userName":"Mani",
+        "userName":"Manikandan",
         "password":"123"
     })
       .end((err, res) => {
@@ -37,7 +74,7 @@ describe("Unit test for User Registeration", () => {
     chai
       .request(app)
       .post("/users/register").send({
-        "userName":"NijinVindan",
+        "userName":"Nagaraj",
         "password":"Nijin@123"
     })
       .end((err, res) => {

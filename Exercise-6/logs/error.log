@@ -205,3 +205,152 @@
  ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:16:28.911Z 
  ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:19:58.566Z 
  ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T04:21:03.665Z 
+ ERROR  IP: ::1 URL: /register STATUS: 409 MESSAGE:Raja ALREADY EXISTS 2023-11-20T12:33:33.029Z 
+ ERROR  IP: ::1 URL: /3 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T12:36:21.222Z 
+ ERROR  IP: ::1 URL: /pagination?page=4&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T12:43:29.571Z 
+ ERROR  IP: ::1 URL: /pagination?page=4&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T12:44:02.124Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2023-11-20T12:47:50.102Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:Mani ALREADY EXISTS 2023-11-20T12:48:42.754Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2023-11-20T12:48:42.767Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:Mani ALREADY EXISTS 2023-11-20T12:49:07.245Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:NISHA ALREADY EXISTS 2023-11-20T12:51:35.099Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:NISHA ALREADY EXISTS 2023-11-20T12:51:46.473Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2023-11-20T12:54:14.931Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T12:57:04.200Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T12:57:45.016Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T12:57:45.025Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T12:58:45.774Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T12:58:45.779Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T12:59:20.047Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T13:00:17.209Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2023-11-20T13:02:03.668Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T13:03:11.695Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T13:03:40.882Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2023-11-20T13:04:11.623Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2023-11-20T13:06:03.430Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN ADDING USERUnexpected token '/', ..."s": [] },
+//   {
+// "... is not valid JSON 2024-01-06T16:04:06.445Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN ADDING USERExpected ',' or ']' after array element in JSON at position 7364 (line 271 column 1) 2024-01-06T16:04:39.857Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T03:55:16.550Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T03:56:23.732Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T03:57:19.782Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T03:57:41.982Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T03:59:19.296Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:01:36.527Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:03:14.944Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:05:12.299Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:05:29.692Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:07:12.187Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:07:27.563Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:07:49.757Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:12:06.828Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:12:30.345Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:12:30.349Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:12:55.924Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:12:55.927Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:13:17.126Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:13:17.129Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:14:02.082Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:14:16.563Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:15:59.861Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:15:59.866Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:18:51.826Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:20:41.271Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:22:02.925Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:22:25.669Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:22:25.673Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:23:03.761Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:24:15.320Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:24:51.482Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:26:16.083Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:36:07.747Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:38:26.118Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:40:15.326Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T04:40:26.401Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T05:28:52.641Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T05:29:30.425Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T06:27:07.171Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T06:46:05.644Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T06:46:20.653Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T06:48:54.500Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T06:49:07.389Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T06:49:07.393Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /6 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T06:49:07.396Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T06:49:52.428Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T06:49:52.430Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T06:52:46.506Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T06:52:46.509Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T06:53:06.155Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:27:53.151Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:27:53.155Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:27:53.159Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:27:53.163Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:28:24.634Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:28:43.674Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T07:28:43.677Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:29:35.383Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T07:29:35.386Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:29:59.145Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:30:28.743Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:30:41.314Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:37:15.620Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T07:37:30.442Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:05:02.058Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:05:29.947Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:06:11.374Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:09:45.639Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:10:39.134Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:13:20.723Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:14:53.112Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:15:37.022Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:16:18.090Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:16:55.844Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERTasks.toDeepString is not a function 2024-01-07T08:17:26.826Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:17:56.022Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:19:22.391Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:19:34.536Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:19:58.236Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:22:56.354Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T08:22:56.362Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T08:23:10.339Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T08:23:10.346Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:22:42.700Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:22:42.710Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:22:42.716Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:22:42.719Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:23:09.791Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T09:23:09.798Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:23:44.149Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T09:23:44.155Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN ADDING USERreadFileData is not defined 2024-01-07T09:29:07.103Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:48:35.425Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /filter?priority=medium STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:48:35.435Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=high STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:51:01.927Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:54:32.657Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:54:32.664Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:54:32.668Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:55:12.020Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:55:12.026Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:55:12.031Z 
+ ERROR  IP: ::1 URL: /pagination?page=2&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:55:51.041Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T09:56:06.597Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2024-01-07T09:56:06.603Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:01:25.826Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2024-01-07T10:01:25.835Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T10:04:18.596Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /4 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T10:04:18.602Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T10:04:35.396Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority STATUS: 400 MESSAGE:Cannot read properties of undefined (reading 'tasks') 2024-01-07T10:10:26.657Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2024-01-07T10:10:26.664Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:14:58.329Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:15:40.445Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:16:36.151Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:NISHA ALREADY EXISTS 2024-01-07T10:23:33.829Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:Nagaraj ALREADY EXISTS 2024-01-07T10:23:33.832Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2024-01-07T10:23:33.837Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:Nagaraj ALREADY EXISTS 2024-01-07T10:24:42.188Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2024-01-07T10:24:42.191Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2024-01-07T10:27:37.731Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:NISHA ALREADY EXISTS 2024-01-07T10:29:06.767Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2024-01-07T10:29:06.830Z 

@@ -3,7 +3,7 @@ const {
   USER_ERROR_RESPONSE,
   USER_SUCCESS_RESPONSE,
 } = require("../constants/response-constants");
-const { writeFileData, readFileData } = require("../utils/file.utils");
+const FILE_UTILS = require("../utils/file.utils");
 const bcrypt = require("bcrypt");
 const {
   getJWTAccessToken,
@@ -20,7 +20,7 @@ require("dotenv").config();
 
 const registerService = async (newuser) => {
   try {
-    const users = await readFileData(USER_FILE_PATH);
+    const users = await FILE_UTILS.readFileData(USER_FILE_PATH);
     const isExists = users.some((user) => user.userName === newuser.userName);
     if (isExists)
       return {
@@ -32,7 +32,7 @@ const registerService = async (newuser) => {
     const hashedPassword = await bcrypt.hash(newuser.password, 10);
     users.push({ userName: newuser.userName, password: hashedPassword });
 
-    await writeFileData(USER_FILE_PATH, JSON.stringify(users));
+    await FILE_UTILS.writeFileData(USER_FILE_PATH, JSON.stringify(users));
     return {
       status: true,
       statusCode: 201,
@@ -52,7 +52,7 @@ const registerService = async (newuser) => {
  */
 const loginService = async (existingUser) => {
   try {
-    const users = await readFileData(USER_FILE_PATH);
+    const users = await FILE_UTILS.readFileData(USER_FILE_PATH);
     const user = users.find((user) => user.userName === existingUser.userName);
     if (!user)
       return {
@@ -82,7 +82,7 @@ const loginService = async (existingUser) => {
 
       otherUsers.push(currentUser);
 
-      await writeFileData(USER_FILE_PATH, JSON.stringify(otherUsers));
+      await FILE_UTILS.writeFileData(USER_FILE_PATH, JSON.stringify(otherUsers));
       return {
         status: true,
         statusCode: 200,
@@ -113,7 +113,7 @@ const loginService = async (existingUser) => {
  */
 const logoutService = async () => {
   try {
-    const users = await readFileData(USER_FILE_PATH);
+    const users = await FILE_UTILS.readFileData(USER_FILE_PATH);
     const isExists = users.some((user) => user.userName === newuser.userName);
     if (isExists)
       return {

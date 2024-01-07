@@ -2798,3 +2798,637 @@
  INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2023-11-20T04:21:03.657Z 
  INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2023-11-20T04:21:03.663Z 
  INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2023-11-20T04:21:03.667Z 
+ INFO Server started successfully and listening to port: undefined 2023-11-20T12:27:42.398Z 
+ INFO Server started successfully and listening to port: undefined 2023-11-20T12:29:08.272Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:31:16.696Z 
+ INFO IP:::1, URL:/register 2023-11-20T12:31:20.667Z 
+ INFO IP:::1, URL:/register 2023-11-20T12:31:40.530Z 
+ INFO IP:::1, URL:/register 2023-11-20T12:31:54.768Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:32:01.892Z 
+ INFO IP:::1, URL:/register 2023-11-20T12:32:03.804Z 
+ INFO IP:::1, URL:/register 2023-11-20T12:32:17.485Z 
+ INFO IP:::1, URL:/register 2023-11-20T12:33:23.419Z 
+ INFO IP:::1, URL:/register 2023-11-20T12:33:26.670Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:33:31.756Z 
+ INFO IP:::1, URL:/register 2023-11-20T12:33:33.028Z 
+ INFO IP:::1, URL:/register 2023-11-20T12:33:38.439Z 
+ INFO IP:::1, URL:/login 2023-11-20T12:34:05.942Z 
+ INFO  ADD IP: ::1 URL: /  2023-11-20T12:34:54.481Z 
+ INFO  ADD IP: ::1 URL: /  2023-11-20T12:35:42.235Z 
+ INFO IP: ::1 URL: / 2023-11-20T12:36:00.851Z 
+ INFO ready by id  IP: ::1 URL: /3 2023-11-20T12:36:21.219Z 
+ INFO ready by id  IP: ::1 URL: /2 2023-11-20T12:36:38.920Z 
+ INFO IP: ::1 URL: /2 2023-11-20T12:37:21.521Z 
+ INFO IP: ::1 URL: /2 2023-11-20T12:37:35.677Z 
+ INFO IP: ::1 URL: /filter?priority=medium&title=task%208 2023-11-20T12:38:16.202Z 
+ INFO IP: ::1 URL: /filter?priority=low&title=task%207 2023-11-20T12:38:43.435Z 
+ INFO  ADD IP: ::1 URL: /  2023-11-20T12:39:12.946Z 
+ INFO  ADD IP: ::1 URL: /  2023-11-20T12:39:18.971Z 
+ INFO  ADD IP: ::1 URL: /  2023-11-20T12:39:23.991Z 
+ INFO  ADD IP: ::1 URL: /  2023-11-20T12:39:28.384Z 
+ INFO  ADD IP: ::1 URL: /  2023-11-20T12:39:31.706Z 
+ INFO IP: ::1 URL: / 2023-11-20T12:39:34.375Z 
+ INFO SORT IP: ::1 URL: /sort?sortBy=priority 2023-11-20T12:39:47.766Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:40:28.193Z 
+ INFO SORT IP: ::1 URL: /sort?sortBy=priority 2023-11-20T12:40:30.929Z 
+ INFO SORT IP: ::1 URL: /sort?sortBy=title 2023-11-20T12:42:50.138Z 
+ INFO IP: ::1 URL: /pagination?page=4&pageSize=3 2023-11-20T12:43:29.565Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:44:00.002Z 
+ INFO IP: ::1 URL: /pagination?page=4&pageSize=3 2023-11-20T12:44:02.113Z 
+ INFO IP: ::1 URL: /pagination?page=1&pageSize=3 2023-11-20T12:44:09.758Z 
+ INFO IP: ::1 URL: /pagination?page=2&pageSize=3 2023-11-20T12:44:17.571Z 
+ INFO IP: ::1 URL: /pagination?page=1&pageSize=3 2023-11-20T12:44:44.585Z 
+ INFO IP: ::1 URL: /pagination?page=2&pageSize=3 2023-11-20T12:44:57.365Z 
+ INFO IP: ::1 URL: /pagination?page=3&pageSize=3 2023-11-20T12:45:06.716Z 
+ INFO IP: ::1 URL: /pagination?page=2&pageSize=3 2023-11-20T12:45:23.498Z 
+ INFO IP: ::1 URL: /3 2023-11-20T12:45:55.666Z 
+ INFO IP: ::1 URL: / 2023-11-20T12:46:02.391Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:47:50.012Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:47:50.028Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:47:50.095Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:47:50.098Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2023-11-20T12:47:50.101Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2023-11-20T12:47:50.105Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:48:42.736Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:48:42.753Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:48:42.761Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:48:42.764Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2023-11-20T12:48:42.766Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2023-11-20T12:48:42.770Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:49:07.227Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:49:07.244Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:49:07.252Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:49:07.255Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:49:52.369Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:49:52.387Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:51:06.221Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:51:06.238Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:51:35.072Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:51:35.092Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:51:35.098Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:51:46.448Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:51:46.465Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:51:46.472Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2023-11-20T12:51:46.477Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:54:14.913Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2023-11-20T12:54:14.930Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2023-11-20T12:54:14.936Z 
+ INFO IP:::1, URL:/login 2023-11-20T12:54:41.644Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:56:09.953Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2023-11-20T12:56:09.963Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2023-11-20T12:56:09.981Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2023-11-20T12:56:09.991Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2023-11-20T12:56:09.995Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:57:04.182Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2023-11-20T12:57:04.192Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /45 2023-11-20T12:57:04.198Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2023-11-20T12:57:04.203Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /4 2023-11-20T12:57:04.206Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:57:44.979Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T12:57:44.989Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T12:57:45.005Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2023-11-20T12:57:45.018Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T12:57:45.022Z 
+ INFO IP:::1, URL:/login 2023-11-20T12:58:31.861Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:58:45.737Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T12:58:45.747Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T12:58:45.771Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2023-11-20T12:58:45.775Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T12:58:45.778Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T12:59:20.008Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T12:59:20.019Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T12:59:20.044Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2023-11-20T12:59:20.048Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /4 2023-11-20T12:59:20.051Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T13:00:17.169Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T13:00:17.179Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2023-11-20T13:00:17.204Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2023-11-20T13:00:17.210Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /4 2023-11-20T13:00:17.212Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T13:00:38.664Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2023-11-20T13:00:38.674Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=medium 2023-11-20T13:00:38.681Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T13:02:03.648Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2023-11-20T13:02:03.658Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname 2023-11-20T13:02:03.666Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=title 2023-11-20T13:02:03.671Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2023-11-20T13:02:03.675Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=dueDate 2023-11-20T13:02:03.679Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T13:03:11.673Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2023-11-20T13:03:11.684Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2023-11-20T13:03:11.691Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2023-11-20T13:03:11.696Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T13:03:40.862Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2023-11-20T13:03:40.873Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2023-11-20T13:03:40.880Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2023-11-20T13:03:40.885Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T13:04:11.603Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2023-11-20T13:04:11.614Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2023-11-20T13:04:11.621Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2023-11-20T13:04:11.626Z 
+ INFO Server started successfully and listening to port: 3000 2023-11-20T13:06:03.411Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2023-11-20T13:06:03.421Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2023-11-20T13:06:03.427Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /6 2023-11-20T13:06:03.433Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-02T14:53:19.167Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-02T14:53:43.482Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-02T14:53:54.068Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-02T14:54:35.169Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-02T14:54:46.715Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-02T14:54:49.824Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:04:05.151Z 
+ INFO IP:::1, URL:/login 2024-01-06T15:04:51.322Z 
+ INFO  ADD IP: ::1 URL: /  2024-01-06T15:05:05.646Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:12:17.485Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:13:36.895Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:16:53.619Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:28:51.471Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:29:35.902Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:30:03.360Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:30:42.312Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:31:39.617Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:57:49.650Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T15:59:48.728Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T15:59:48.738Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T15:59:48.756Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:00:05.911Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:00:05.921Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:00:05.929Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:00:05.938Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:00:05.945Z 
+ INFO IP:::1, URL:/login 2024-01-06T16:00:38.157Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:00:53.824Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:00:53.833Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:00:53.845Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:00:53.857Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:00:53.861Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:01:45.439Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:01:45.448Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:01:45.459Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:01:45.468Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:01:45.472Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:04:06.412Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:04:06.421Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:04:06.432Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:04:06.441Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:04:06.444Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:04:39.820Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:04:39.833Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:04:39.843Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:04:39.853Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:04:39.856Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:05:17.657Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:05:17.666Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:05:17.677Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:05:17.688Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:05:17.690Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:06:15.573Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:06:43.614Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:07:39.382Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:11:06.997Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:12:27.867Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:16:45.455Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:18:09.289Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:18:09.302Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:18:09.313Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:18:09.380Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:18:09.383Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:18:21.051Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:18:21.060Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:18:21.070Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:18:21.088Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-06T16:18:21.091Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-06T16:19:02.773Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:17:26.955Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:17:52.042Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:19:16.521Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:19:55.220Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:20:28.930Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:22:27.086Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:24:27.877Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:25:17.211Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:25:40.794Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:45:13.755Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T03:45:13.766Z 
+ INFO IP:::1, URL:/login 2024-01-07T03:45:28.697Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:45:52.112Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T03:45:52.122Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:46:47.483Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T03:46:47.511Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:48:02.771Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T03:48:02.826Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:48:39.129Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T03:48:39.167Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:49:14.349Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T03:49:14.369Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:49:27.531Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T03:49:27.551Z 
+ INFO  ADD IP: ::1 URL: /  2024-01-07T03:50:40.724Z 
+ INFO  ADD IP: ::1 URL: /  2024-01-07T03:50:50.742Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:51:20.483Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T03:51:20.501Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:52:26.948Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T03:52:26.968Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:55:16.534Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T03:55:16.544Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:56:23.715Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T03:56:23.726Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:57:19.765Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T03:57:19.776Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:57:41.964Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T03:57:41.976Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T03:59:19.280Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T03:59:19.290Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:01:36.503Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:01:36.521Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:01:36.528Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:03:14.925Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:03:14.938Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:03:14.946Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:05:12.281Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:05:12.292Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:05:12.300Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:05:12.306Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:05:29.675Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:05:29.686Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:05:29.694Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:05:29.699Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:07:12.170Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:07:12.180Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:07:12.188Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:07:12.194Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:07:27.546Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:07:27.558Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:07:27.565Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:07:27.571Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:07:49.740Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:07:49.751Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:07:49.760Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:12:06.811Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:12:06.823Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:12:30.329Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:12:30.340Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:12:30.347Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:12:55.907Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:12:55.918Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:12:55.926Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:13:17.109Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:13:17.119Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:13:17.127Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:14:02.066Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:14:02.077Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:14:02.084Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:14:16.545Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:14:16.556Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:14:16.564Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:15:59.844Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:15:59.854Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:15:59.861Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:18:51.807Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:18:51.819Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:20:41.251Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:20:41.263Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:22:02.907Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:22:02.919Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:22:25.651Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:22:25.662Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:22:25.669Z 
+ INFO IP:::1, URL:/login 2024-01-07T04:22:37.413Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:23:03.744Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:23:03.754Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T04:23:03.762Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:24:01.601Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:24:15.303Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:24:15.314Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:24:51.465Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:24:51.476Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:26:16.060Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:26:16.077Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:36:07.724Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:36:07.741Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:38:26.099Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:38:26.111Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:40:15.309Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:40:15.320Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T04:40:26.380Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T04:40:26.394Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:28:52.618Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T05:28:52.629Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:29:30.405Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:29:30.416Z 
+ INFO IP:::1, URL:/login 2024-01-07T05:29:37.120Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:29:53.793Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:29:53.803Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:32:41.526Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:32:41.540Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:33:10.351Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:33:10.363Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:34:37.734Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:35:11.076Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:35:26.019Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:35:26.036Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:36:34.485Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:36:34.499Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:36:52.936Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:36:52.949Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:38:13.097Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:38:13.111Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:38:26.180Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:38:26.192Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:39:29.808Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:39:29.820Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:39:49.082Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:39:49.095Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:40:27.872Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:40:27.884Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:41:01.996Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:41:02.017Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:41:47.223Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:41:47.236Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T05:42:27.361Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T05:42:27.374Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:27:07.143Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:27:07.159Z 
+ INFO IP:::1, URL:/login 2024-01-07T06:27:44.506Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:28:19.175Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:28:19.187Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:29:07.456Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:29:07.469Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:31:47.844Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:31:47.857Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:32:32.177Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:32:32.189Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:39:51.169Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:39:51.183Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:46:05.627Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:46:05.641Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:46:20.638Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:46:20.650Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:46:49.364Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:46:49.379Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:47:07.446Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:47:07.459Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:47:28.436Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:47:28.448Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:47:40.617Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:47:40.629Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:47:50.858Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:47:50.870Z 
+ INFO IP:::1, URL:/login 2024-01-07T06:48:34.079Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:48:54.483Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T06:48:54.493Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T06:48:54.501Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /6 2024-01-07T06:48:54.506Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T06:48:54.509Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:49:07.374Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T06:49:07.384Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T06:49:07.391Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /6 2024-01-07T06:49:07.395Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T06:49:07.399Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:49:52.411Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T06:49:52.422Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T06:49:52.428Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:49:52.433Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T06:49:52.436Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:51:11.673Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:51:47.060Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:52:46.489Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T06:52:46.500Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T06:52:46.507Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:52:46.511Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T06:53:06.139Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T06:53:06.150Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T06:53:06.157Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T06:53:06.162Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T07:27:53.112Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:27:53.136Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T07:27:53.147Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T07:27:53.157Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:27:53.161Z 
+ INFO IP:::1, URL:/login 2024-01-07T07:28:00.495Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T07:28:24.619Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:28:24.628Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T07:28:24.635Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T07:28:24.639Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:28:24.643Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T07:28:43.658Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:28:43.668Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T07:28:43.675Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T07:28:43.679Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:28:43.682Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T07:29:35.368Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:29:35.378Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T07:29:35.385Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T07:29:35.389Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T07:29:59.129Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:29:59.139Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T07:29:59.146Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T07:29:59.151Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T07:30:28.727Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:30:28.737Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T07:30:28.744Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T07:30:28.749Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T07:30:41.299Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:30:41.308Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T07:30:41.315Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T07:30:41.321Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T07:37:15.604Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:37:15.614Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T07:37:30.426Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T07:37:30.436Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T07:37:30.443Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:05:02.038Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:05:02.055Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:05:02.063Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:05:02.070Z 
+ INFO IP:::1, URL:/login 2024-01-07T08:05:06.962Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:05:29.934Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:05:29.945Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:05:29.952Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:05:31.958Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:06:11.358Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:06:11.372Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:06:11.379Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:06:13.386Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:09:45.605Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:09:45.635Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:09:45.647Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:09:47.654Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:10:39.120Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:10:39.132Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:10:39.139Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:10:41.146Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:13:20.710Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:13:20.721Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:13:20.730Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:13:22.738Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:14:53.099Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:14:53.109Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:14:53.117Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:14:55.125Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:15:37.008Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:15:37.019Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:15:37.028Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:15:39.037Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:16:18.075Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:16:18.088Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:16:18.096Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:16:20.105Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:16:55.827Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:16:55.840Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:16:55.849Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:16:57.863Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:17:26.810Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:17:26.822Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:17:26.831Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:17:28.834Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:17:56.008Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:17:56.019Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:17:56.027Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:17:58.039Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:19:22.378Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:19:22.388Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:19:22.396Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:19:24.399Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:19:34.523Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:19:34.534Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:19:34.541Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:19:36.545Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:19:58.222Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:19:58.233Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:19:58.241Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:20:00.246Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:22:56.340Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:22:56.351Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:22:56.359Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:22:56.365Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T08:23:10.325Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T08:23:10.336Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T08:23:10.344Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T08:23:10.348Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:22:42.672Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T09:22:42.696Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T09:22:42.706Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T09:22:42.715Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T09:22:42.719Z 
+ INFO IP:::1, URL:/login 2024-01-07T09:22:48.674Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:23:09.776Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T09:23:09.788Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T09:23:09.796Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T09:23:09.802Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T09:23:09.806Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:23:44.136Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T09:23:44.146Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T09:23:44.153Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T09:23:44.157Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T09:23:44.160Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:27:14.618Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:27:48.574Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:29:07.015Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T09:29:07.027Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T09:29:07.053Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T09:29:07.099Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T09:29:07.103Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:39:27.046Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T09:39:27.058Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T09:39:27.069Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T09:39:27.084Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T09:39:27.088Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:48:35.397Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=medium 2024-01-07T09:48:35.421Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=medium 2024-01-07T09:48:35.432Z 
+ INFO IP:::1, URL:/login 2024-01-07T09:48:47.537Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:51:01.913Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=high 2024-01-07T09:51:01.925Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=high 2024-01-07T09:51:01.932Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:53:20.200Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:54:32.643Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T09:54:32.654Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2024-01-07T09:54:32.662Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T09:54:32.667Z 
+ INFO IP:::1, URL:/login 2024-01-07T09:54:44.535Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:55:12.006Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T09:55:12.018Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2024-01-07T09:55:12.025Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T09:55:12.030Z 
+ INFO IP: ::1 URL: /pagination?page=2&pageSize=3 2024-01-07T09:55:51.031Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T09:56:06.584Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T09:56:06.594Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2024-01-07T09:56:06.602Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T09:56:06.606Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:01:25.797Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T10:01:25.822Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2024-01-07T10:01:25.833Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T10:01:25.838Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:04:18.572Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:04:18.586Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T10:04:18.594Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:04:18.598Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /4 2024-01-07T10:04:18.601Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:04:35.377Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:04:35.387Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T10:04:35.395Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:04:35.398Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /3 2024-01-07T10:04:35.402Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:10:11.666Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:10:26.644Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2024-01-07T10:10:26.654Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname 2024-01-07T10:10:26.662Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=title 2024-01-07T10:10:26.667Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2024-01-07T10:10:26.669Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=dueDate 2024-01-07T10:10:26.672Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:13:33.669Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:13:33.690Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:13:33.779Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:13:33.786Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /4 2024-01-07T10:13:33.790Z 
+ INFO IP:::1, URL:/login 2024-01-07T10:13:42.335Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:14:01.482Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:14:01.492Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:14:01.508Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:14:01.513Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /4 2024-01-07T10:14:01.517Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:14:33.986Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:14:33.996Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:14:34.014Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:14:34.016Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /4 2024-01-07T10:14:34.020Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:14:58.287Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:14:58.297Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:14:58.318Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:14:58.321Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /3 2024-01-07T10:14:58.323Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:15:40.413Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:15:40.422Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:15:40.439Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:15:40.441Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:15:40.444Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:16:36.119Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:16:36.130Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:16:36.150Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:16:36.154Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:16:36.156Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:23:33.802Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:23:33.822Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:23:33.828Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:23:33.832Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:23:33.837Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:23:33.840Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:24:42.157Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:24:42.177Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:24:42.183Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:24:42.187Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:24:42.190Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:24:42.193Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:27:37.532Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:27:37.639Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:27:37.651Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:27:37.659Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:27:37.728Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:27:37.734Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:29:06.742Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:29:06.761Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:29:06.766Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:29:06.769Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:29:06.828Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:29:06.833Z 
