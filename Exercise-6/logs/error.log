@@ -354,3 +354,48 @@
  ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2024-01-07T10:27:37.731Z 
  ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:NISHA ALREADY EXISTS 2024-01-07T10:29:06.767Z 
  ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2024-01-07T10:29:06.830Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:NISHA ALREADY EXISTS 2024-01-07T10:29:43.120Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2024-01-07T10:29:43.184Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.269Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.272Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.274Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.276Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=high STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.279Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /filter?priority=high STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.281Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.283Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.285Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.286Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.290Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.296Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority STATUS: 400 MESSAGE:Cannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.298Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2024-01-07T10:29:43.299Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:29:43.306Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:32:13.400Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:32:42.532Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:NISHA ALREADY EXISTS 2024-01-07T10:33:01.436Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2024-01-07T10:33:01.500Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.583Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.586Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /1 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.588Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.590Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=high STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.592Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /filter?priority=high STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.595Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.597Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.599Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.601Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.606Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.611Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority STATUS: 400 MESSAGE:Cannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.613Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2024-01-07T10:33:01.615Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:33:01.623Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /register STATUS: 409 MESSAGE:NISHA ALREADY EXISTS 2024-01-07T10:36:44.457Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /login STATUS: 404 MESSAGE:NijinV NOT FOUND 2024-01-07T10:36:44.520Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: / STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:36:44.602Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T10:36:44.604Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=high STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:36:44.611Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:36:44.615Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 STATUS: 404 MESSAGE:Invalid pagination 2024-01-07T10:36:44.617Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /45 STATUS: 404 MESSAGE:INVALID TASK ID 2024-01-07T10:36:44.622Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority STATUS: 400 MESSAGE:Cannot read properties of undefined (reading 'tasks') 2024-01-07T10:36:44.629Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname STATUS: 400 MESSAGE:Invalid sort request!!! 2024-01-07T10:36:44.630Z 
+ ERROR  IP: ::ffff:127.0.0.1 URL: /8 STATUS: 500 MESSAGE:ERROR IN READING USERCannot read properties of undefined (reading 'tasks') 2024-01-07T10:36:44.637Z 

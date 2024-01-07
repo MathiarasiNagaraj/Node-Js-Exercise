@@ -3432,3 +3432,120 @@
  INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:29:06.769Z 
  INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:29:06.828Z 
  INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:29:06.833Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:29:43.095Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:29:43.113Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:29:43.119Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:29:43.123Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:29:43.183Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:29:43.187Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:29:43.250Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:29:43.255Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:29:43.258Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:29:43.265Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:29:43.268Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T10:29:43.271Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:29:43.273Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:29:43.275Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=high 2024-01-07T10:29:43.278Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=high 2024-01-07T10:29:43.280Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T10:29:43.282Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2024-01-07T10:29:43.284Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T10:29:43.286Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:29:43.288Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T10:29:43.290Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:29:43.293Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /3 2024-01-07T10:29:43.295Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2024-01-07T10:29:43.297Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname 2024-01-07T10:29:43.299Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=title 2024-01-07T10:29:43.300Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2024-01-07T10:29:43.301Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=dueDate 2024-01-07T10:29:43.303Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:29:43.304Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:29:43.305Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:29:43.307Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:29:43.308Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:32:13.368Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:32:13.379Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:32:13.399Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:32:13.403Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:32:13.406Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:32:42.495Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:32:42.510Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:32:42.531Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:32:42.535Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:32:42.538Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:33:01.411Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:33:01.429Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:33:01.435Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:33:01.438Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:33:01.497Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:33:01.503Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:33:01.564Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:33:01.568Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:33:01.571Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:33:01.578Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:33:01.582Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T10:33:01.585Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:33:01.587Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:33:01.589Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=high 2024-01-07T10:33:01.592Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=high 2024-01-07T10:33:01.594Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T10:33:01.597Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2024-01-07T10:33:01.599Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T10:33:01.601Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:33:01.604Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T10:33:01.605Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:33:01.609Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /3 2024-01-07T10:33:01.611Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2024-01-07T10:33:01.613Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname 2024-01-07T10:33:01.615Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=title 2024-01-07T10:33:01.616Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2024-01-07T10:33:01.618Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=dueDate 2024-01-07T10:33:01.619Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:33:01.621Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:33:01.622Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:33:01.624Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:33:01.626Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:34:08.796Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:34:08.807Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:34:08.815Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:34:08.826Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:34:08.832Z 
+ INFO IP:::1, URL:/login 2024-01-07T10:34:35.953Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:36:31.470Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:36:31.481Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:36:31.492Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:36:31.502Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:36:31.505Z 
+ INFO Server started successfully and listening to port: 3000 2024-01-07T10:36:44.429Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:36:44.450Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:36:44.456Z 
+ INFO IP:::ffff:127.0.0.1, URL:/register 2024-01-07T10:36:44.460Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:36:44.519Z 
+ INFO IP:::ffff:127.0.0.1, URL:/login 2024-01-07T10:36:44.523Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:36:44.586Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:36:44.593Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:36:44.596Z 
+ INFO  ADD IP: ::ffff:127.0.0.1 URL: /  2024-01-07T10:36:44.599Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:36:44.602Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T10:36:44.604Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:36:44.606Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:36:44.609Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?filter?priority=high 2024-01-07T10:36:44.611Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /filter?priority=high 2024-01-07T10:36:44.613Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T10:36:44.615Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=13&pageSize=3 2024-01-07T10:36:44.617Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /pagination?page=1&pageSize=3 2024-01-07T10:36:44.618Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:36:44.620Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /45 2024-01-07T10:36:44.622Z 
+ INFO IP: ::ffff:127.0.0.1 URL: / 2024-01-07T10:36:44.625Z 
+ INFO ready by id  IP: ::ffff:127.0.0.1 URL: /3 2024-01-07T10:36:44.627Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2024-01-07T10:36:44.628Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=nickname 2024-01-07T10:36:44.630Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=title 2024-01-07T10:36:44.631Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=priority 2024-01-07T10:36:44.633Z 
+ INFO SORT IP: ::ffff:127.0.0.1 URL: /sort?sortBy=dueDate 2024-01-07T10:36:44.634Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:36:44.635Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /8 2024-01-07T10:36:44.637Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /5 2024-01-07T10:36:44.639Z 
+ INFO IP: ::ffff:127.0.0.1 URL: /1 2024-01-07T10:36:44.640Z 
